@@ -4,7 +4,7 @@
 
 # Current products
 /waist-wrap/* https://waistmafia-wrap-landing.netlify.app/:splat 200
+/hoodie-backless/* https://auralo-backluxe-hoodie.netlify.app/:splat 200
 
 # Add new products below (one line each):
-# /hoodie/* https://brand-hoodie-landing.netlify.app/:splat 200
 # /bodysuit/* https://brand-bodysuit-landing.netlify.app/:splat 200
