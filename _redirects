@@ -1,0 +1,10 @@
+# Auralo.store Router
+# Each line proxies a path to a separate Netlify project
+# Format: /path/* https://project-name.netlify.app/:splat 200
+
+# Current products
+/waist-wrap/* https://waistmafia-wrap-landing.netlify.app/:splat 200
+
+# Add new products below (one line each):
+# /hoodie/* https://brand-hoodie-landing.netlify.app/:splat 200
+# /bodysuit/* https://brand-bodysuit-landing.netlify.app/:splat 200
