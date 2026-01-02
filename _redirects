@@ -10,5 +10,10 @@
 /backless-hoodie/ https://auralo-backluxe-hoodie.netlify.app/ 200!
 /backless-hoodie/* https://auralo-backluxe-hoodie.netlify.app/:splat 200!
 
+# Arina Rhinestone Dress - both base path and subpaths
+/arinadress https://arina-rhinestone-dress.netlify.app/ 200!
+/arinadress/ https://arina-rhinestone-dress.netlify.app/ 200!
+/arinadress/* https://arina-rhinestone-dress.netlify.app/:splat 200!
+
 # Add new products below (one line each):
 # /bodysuit/* https://brand-bodysuit-landing.netlify.app/:splat 200
