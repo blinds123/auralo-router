@@ -2,6 +2,10 @@
 # Each line proxies a path to a separate Netlify project
 # Format: /path/* https://project-name.netlify.app/:splat 200
 
+# Netlify Functions proxy (TEMPORARY - for legacy sites using Netlify functions)
+# New products should use direct onrender redirect instead
+/.netlify/functions/* https://waistmafia-wrap-landing.netlify.app/.netlify/functions/:splat 200
+
 # Current products
 /waist-wrap/* https://waistmafia-wrap-landing.netlify.app/:splat 200
 
