@@ -4,17 +4,18 @@ export default async (request: Request) => {
 
   // Router configuration
   const routes = {
-    '/waist-wrap': 'https://waistmafia-wrap-landing.netlify.app',
-    '/backless-hoodie': 'https://auralo-backluxe-hoodie.netlify.app',
+    "/waist-wrap": "https://waistmafia-wrap-landing.netlify.app",
+    "/backless-hoodie": "https://auralo-backluxe-hoodie.netlify.app",
+    "/arinadress": "https://arina-rhinestone-dress.netlify.app",
   };
 
   // Check if path matches any route
   for (const [route, target] of Object.entries(routes)) {
-    if (path === route || path.startsWith(route + '/')) {
+    if (path === route || path.startsWith(route + "/")) {
       // Build target URL
-      const targetPath = path.replace(route, '');
+      const targetPath = path.replace(route, "");
       const targetUrl = target + targetPath + url.search;
-      
+
       // Proxy the request
       return fetch(targetUrl, {
         headers: request.headers,
@@ -24,7 +25,7 @@ export default async (request: Request) => {
   }
 
   // No match - return 404
-  return new Response('Product not found', { status: 404 });
+  return new Response("Product not found", { status: 404 });
 };
 
 export const config = { path: "/*" };
