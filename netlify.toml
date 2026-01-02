@@ -1,0 +1,26 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/backless-hoodie"
+  to = "https://auralo-backluxe-hoodie.netlify.app/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/backless-hoodie/"
+  to = "https://auralo-backluxe-hoodie.netlify.app/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/backless-hoodie/*"
+  to = "https://auralo-backluxe-hoodie.netlify.app/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/waist-wrap/*"
+  to = "https://waistmafia-wrap-landing.netlify.app/:splat"
+  status = 200
+  force = true
