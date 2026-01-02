@@ -6,9 +6,9 @@
 /waist-wrap/* https://waistmafia-wrap-landing.netlify.app/:splat 200
 
 # Backless Hoodie - both base path and subpaths
-/backless-hoodie https://backlesshoodie.auralo.store/ 200
-/backless-hoodie/ https://backlesshoodie.auralo.store/ 200
-/backless-hoodie/* https://backlesshoodie.auralo.store/:splat 200
+/backless-hoodie https://auralo-backluxe-hoodie.netlify.app/ 200
+/backless-hoodie/ https://auralo-backluxe-hoodie.netlify.app/ 200
+/backless-hoodie/* https://auralo-backluxe-hoodie.netlify.app/:splat 200
 
 # Add new products below (one line each):
 # /bodysuit/* https://brand-bodysuit-landing.netlify.app/:splat 200
