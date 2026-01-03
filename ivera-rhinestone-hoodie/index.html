@@ -153,54 +153,101 @@
         object-fit: cover;
       }
 
-      /* TikTok Q&A Overlays */
+      /* TikTok Q&A Overlays - AUTHENTIC TIKTOK STYLE */
       .tiktok-overlay {
         position: absolute;
-        background: var(--white);
-        border-radius: 16px;
-        padding: 12px 16px;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
-        max-width: 220px;
-        font-family: "Inter", sans-serif;
-      }
-
-      .tiktok-overlay.question {
-        top: 20px;
-        left: 20px;
-      }
-
-      .tiktok-overlay.answer {
-        bottom: 20px;
-        right: 20px;
+        background: rgba(0, 0, 0, 0.75);
+        backdrop-filter: blur(8px);
+        border-radius: 4px;
+        padding: 8px 12px;
+        max-width: 260px;
+        font-family: "Poppins", sans-serif;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
       }
 
       .reply-header {
         font-size: 11px;
-        color: #666;
-        margin-bottom: 6px;
+        color: rgba(255, 255, 255, 0.6);
+        font-weight: 500;
+        margin-bottom: 4px;
+        padding-bottom: 4px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
       }
 
-      .verified {
-        color: var(--tiktok-blue);
-        font-weight: bold;
-      }
-
-      .overlay-content {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-      }
-
-      .overlay-avatar {
-        width: 28px;
-        height: 28px;
-        border-radius: 50%;
-      }
-
-      .overlay-text {
-        font-size: 14px;
+      .tiktok-username {
         font-weight: 600;
-        color: var(--black);
+        font-size: 13px;
+        color: rgba(255, 255, 255, 0.95);
+        margin-right: 4px;
+      }
+
+      .tiktok-verified {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 14px;
+        height: 14px;
+        background: #20d5ec;
+        border-radius: 50%;
+        margin-left: 2px;
+      }
+
+      .tiktok-verified::after {
+        content: "✓";
+        color: #000;
+        font-size: 9px;
+        font-weight: 700;
+      }
+
+      .tiktok-comment {
+        color: #ffffff;
+        font-size: 14px;
+        line-height: 1.4;
+        font-weight: 400;
+      }
+
+      .overlay-question {
+        background: rgba(0, 0, 0, 0.75);
+        padding: 8px 12px;
+        border-radius: 4px;
+      }
+
+      .overlay-answer {
+        background: rgba(229, 255, 0, 0.95);
+        color: #111111;
+        padding: 10px 14px;
+        border-radius: 4px;
+        font-weight: 500;
+      }
+
+      .overlay-answer .tiktok-username {
+        color: #111111;
+      }
+
+      .overlay-answer .tiktok-comment {
+        color: #111111;
+      }
+
+      .overlay-answer .reply-header {
+        color: rgba(17, 17, 17, 0.6);
+        border-bottom-color: rgba(17, 17, 17, 0.1);
+      }
+
+      .tiktok-overlay.question {
+        top: 16px;
+        left: 16px;
+      }
+
+      .tiktok-overlay.answer {
+        bottom: 16px;
+        right: 16px;
+      }
+
+      @media (max-width: 768px) {
+        .tiktok-overlay {
+          max-width: 200px;
+          font-size: 13px;
+        }
       }
 
       /* Thumbnail Strip */
