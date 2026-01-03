@@ -15,9 +15,10 @@
 /arinadress/ https://arina-rhinestone-dress.netlify.app/ 200!
 /arinadress/* https://arina-rhinestone-dress.netlify.app/:splat 200!
 
-# IVERA BackLuxe Rhinestone Hoodie
-/ivera-rhinestone-hoodie /ivera-rhinestone-hoodie/index.html 200
-/ivera-rhinestone-hoodie/* /ivera-rhinestone-hoodie/:splat 200
+# IVERA BackLuxe Rhinestone Hoodie - local files
+/ivera-rhinestone-hoodie /ivera-rhinestone-hoodie/index.html 200!
+/ivera-rhinestone-hoodie/ /ivera-rhinestone-hoodie/index.html 200!
+/ivera-rhinestone-hoodie/* /ivera-rhinestone-hoodie/:splat 200!
 
 # Add new products below (one line each):
 # /bodysuit/* https://brand-bodysuit-landing.netlify.app/:splat 200

@@ -1,6 +1,2 @@
 [build]
   publish = "."
-
-[[edge_functions]]
-  function = "router"
-  path = "/*"
