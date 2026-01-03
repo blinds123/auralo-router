@@ -1,0 +1,551 @@
+{
+  "url": "https://auralo.store/ivera-rhinestone-hoodie",
+  "timestamp": "2026-01-03T23:44:39.406Z",
+  "tests": [
+    {
+      "name": "Page Load",
+      "passed": true,
+      "status": 200,
+      "title": "IVERA BackLuxe Rhinestone Hoodie - IVERA"
+    },
+    {
+      "name": "Mobile Viewport",
+      "passed": true,
+      "viewport": "375x667",
+      "screenshot": "screenshots/mobile-viewport.png"
+    },
+    {
+      "name": "Image Loading",
+      "passed": false,
+      "total": 31,
+      "loaded": 0,
+      "broken": 31,
+      "brokenUrls": [
+        "https://auralo.store/images/product/download%20(22).png",
+        "https://auralo.store/images/product/download%20(22).png",
+        "https://auralo.store/images/product/download%20(23).png",
+        "https://auralo.store/images/product/download%20(24).png",
+        "https://auralo.store/images/product/download%20(25).png",
+        "https://auralo.store/images/product/download%20(26).png",
+        "https://auralo.store/images/product/download%20(35).png",
+        "https://auralo.store/images/product/download%20(59).png",
+        "https://auralo.store/images/product/download%20(46).png",
+        "https://auralo.store/images/product/download%20(34).png",
+        "https://auralo.store/images/logos/vh1.svg",
+        "https://auralo.store/images/logos/vogue.svg",
+        "https://auralo.store/images/logos/bazaar.png",
+        "https://auralo.store/images/logos/love-hip-hop.png",
+        "https://auralo.store/images/product/download%20(28).png",
+        "https://auralo.store/images/product/download%20(29).png",
+        "https://auralo.store/images/product/download%20(30).png",
+        "https://auralo.store/images/product/download%20(31).png",
+        "https://auralo.store/images/product/download%20(32).png",
+        "https://auralo.store/images/product/download%20(33).png",
+        "https://auralo.store/images/product/download%20(30).png",
+        "https://auralo.store/images/product/download%20(36).png",
+        "https://auralo.store/images/product/download%20(37).png",
+        "https://auralo.store/images/product/download%20(38).png",
+        "https://auralo.store/images/product/download%20(39).png",
+        "https://auralo.store/images/product/download%20(40).png",
+        "https://auralo.store/images/product/download%20(41).png",
+        "https://auralo.store/images/product/download%20(42).png",
+        "https://auralo.store/images/product/download%20(43).png",
+        "https://auralo.store/images/product/download%20(44).png",
+        "https://auralo.store/images/product/download%20(52).png"
+      ]
+    },
+    {
+      "name": "TikTok Overlays",
+      "passed": false,
+      "count": 5,
+      "expected": 8,
+      "visible": [
+        {
+          "index": 0,
+          "visible": true,
+          "textLength": 218
+        },
+        {
+          "index": 1,
+          "visible": true,
+          "textLength": 258
+        },
+        {
+          "index": 2,
+          "visible": true,
+          "textLength": 322
+        },
+        {
+          "index": 3,
+          "visible": true,
+          "textLength": 353
+        },
+        {
+          "index": 4,
+          "visible": true,
+          "textLength": 317
+        }
+      ]
+    },
+    {
+      "name": "Checkout Button",
+      "passed": false,
+      "clicked": false
+    },
+    {
+      "name": "Order Bump",
+      "passed": true,
+      "hasImage": true,
+      "hasCheckbox": true,
+      "imageLoaded": false
+    },
+    {
+      "name": "Pricing Options",
+      "passed": true,
+      "buttons": 24,
+      "clickable": [
+        {
+          "index": 0,
+          "text": "\n        $19\n        $29\n     ",
+          "clickable": true
+        },
+        {
+          "index": 1,
+          "text": "$19",
+          "clickable": true
+        },
+        {
+          "index": 2,
+          "text": "$29",
+          "clickable": true
+        }
+      ]
+    },
+    {
+      "name": "FAQ Accordion",
+      "passed": true,
+      "items": 19
+    },
+    {
+      "name": "Reviews",
+      "passed": true,
+      "count": 77
+    },
+    {
+      "name": "Performance",
+      "passed": true,
+      "metrics": {
+        "domContentLoaded": 0,
+        "loadComplete": 0,
+        "domInteractive": 456
+      }
+    },
+    {
+      "name": "Touch Targets (48px min)",
+      "passed": false,
+      "smallTargets": 8,
+      "details": [
+        {
+          "tag": "A",
+          "text": "HOME",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "tag": "A",
+          "text": "BUY NOW",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "tag": "A",
+          "text": "FAQ",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "tag": "A",
+          "text": "CONTACT",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "tag": "A",
+          "text": "Privacy Policy",
+          "width": 94.546875,
+          "height": 22.3984375
+        }
+      ]
+    },
+    {
+      "name": "Color Scheme",
+      "passed": true,
+      "hasLime": true,
+      "colors": {
+        "bodyBg": "rgb(255, 255, 255)",
+        "announcementBg": "rgb(229, 255, 0)"
+      }
+    }
+  ],
+  "issues": [
+    {
+      "type": "console_error",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://auralo.store/images/product/download%20(22).png",
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "type": "console_error",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://auralo.store/images/product/download%20(24).png",
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "type": "console_error",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://auralo.store/images/product/download%20(26).png",
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "type": "console_error",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://auralo.store/images/product/download%20(46).png",
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "type": "console_error",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://auralo.store/images/product/download%20(34).png",
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "type": "console_error",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://auralo.store/images/logos/vh1.svg",
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "type": "console_error",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://auralo.store/images/logos/love-hip-hop.png",
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "type": "console_error",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://auralo.store/images/logos/bazaar.png",
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "type": "console_error",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://auralo.store/images/product/download%20(30).png",
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "type": "console_error",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://auralo.store/images/product/download%20(23).png",
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "type": "console_error",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://auralo.store/images/product/download%20(25).png",
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "type": "console_error",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://auralo.store/images/product/download%20(35).png",
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "type": "console_error",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://auralo.store/images/logos/vogue.svg",
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "type": "console_error",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://auralo.store/images/product/download%20(52).png",
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "type": "console_error",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://auralo.store/images/product/download%20(36).png",
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "type": "console_error",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://auralo.store/images/product/download%20(40).png",
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "type": "console_error",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://auralo.store/images/product/download%20(39).png",
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "type": "console_error",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://auralo.store/images/product/download%20(38).png",
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "type": "console_error",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://auralo.store/images/product/download%20(42).png",
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "type": "console_error",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://auralo.store/images/product/download%20(44).png",
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "type": "console_error",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://auralo.store/images/product/download%20(37).png",
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "type": "console_error",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://auralo.store/images/product/download%20(43).png",
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "type": "console_error",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://auralo.store/images/product/download%20(41).png",
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "type": "console_error",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://auralo.store/images/product/download%20(27).png",
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "type": "console_error",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://auralo.store/images/product/download%20(28).png",
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "type": "console_error",
+      "message": "Failed to load resource: the server responded with a status of 404 ()",
+      "location": {
+        "url": "https://auralo.store/favicon.ico",
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "type": "broken_image",
+      "url": "https://auralo.store/images/product/download%20(22).png"
+    },
+    {
+      "type": "broken_image",
+      "url": "https://auralo.store/images/product/download%20(22).png"
+    },
+    {
+      "type": "broken_image",
+      "url": "https://auralo.store/images/product/download%20(23).png"
+    },
+    {
+      "type": "broken_image",
+      "url": "https://auralo.store/images/product/download%20(24).png"
+    },
+    {
+      "type": "broken_image",
+      "url": "https://auralo.store/images/product/download%20(25).png"
+    },
+    {
+      "type": "broken_image",
+      "url": "https://auralo.store/images/product/download%20(26).png"
+    },
+    {
+      "type": "broken_image",
+      "url": "https://auralo.store/images/product/download%20(35).png"
+    },
+    {
+      "type": "broken_image",
+      "url": "https://auralo.store/images/product/download%20(59).png"
+    },
+    {
+      "type": "broken_image",
+      "url": "https://auralo.store/images/product/download%20(46).png"
+    },
+    {
+      "type": "broken_image",
+      "url": "https://auralo.store/images/product/download%20(34).png"
+    },
+    {
+      "type": "broken_image",
+      "url": "https://auralo.store/images/logos/vh1.svg"
+    },
+    {
+      "type": "broken_image",
+      "url": "https://auralo.store/images/logos/vogue.svg"
+    },
+    {
+      "type": "broken_image",
+      "url": "https://auralo.store/images/logos/bazaar.png"
+    },
+    {
+      "type": "broken_image",
+      "url": "https://auralo.store/images/logos/love-hip-hop.png"
+    },
+    {
+      "type": "broken_image",
+      "url": "https://auralo.store/images/product/download%20(28).png"
+    },
+    {
+      "type": "broken_image",
+      "url": "https://auralo.store/images/product/download%20(29).png"
+    },
+    {
+      "type": "broken_image",
+      "url": "https://auralo.store/images/product/download%20(30).png"
+    },
+    {
+      "type": "broken_image",
+      "url": "https://auralo.store/images/product/download%20(31).png"
+    },
+    {
+      "type": "broken_image",
+      "url": "https://auralo.store/images/product/download%20(32).png"
+    },
+    {
+      "type": "broken_image",
+      "url": "https://auralo.store/images/product/download%20(33).png"
+    },
+    {
+      "type": "broken_image",
+      "url": "https://auralo.store/images/product/download%20(30).png"
+    },
+    {
+      "type": "broken_image",
+      "url": "https://auralo.store/images/product/download%20(36).png"
+    },
+    {
+      "type": "broken_image",
+      "url": "https://auralo.store/images/product/download%20(37).png"
+    },
+    {
+      "type": "broken_image",
+      "url": "https://auralo.store/images/product/download%20(38).png"
+    },
+    {
+      "type": "broken_image",
+      "url": "https://auralo.store/images/product/download%20(39).png"
+    },
+    {
+      "type": "broken_image",
+      "url": "https://auralo.store/images/product/download%20(40).png"
+    },
+    {
+      "type": "broken_image",
+      "url": "https://auralo.store/images/product/download%20(41).png"
+    },
+    {
+      "type": "broken_image",
+      "url": "https://auralo.store/images/product/download%20(42).png"
+    },
+    {
+      "type": "broken_image",
+      "url": "https://auralo.store/images/product/download%20(43).png"
+    },
+    {
+      "type": "broken_image",
+      "url": "https://auralo.store/images/product/download%20(44).png"
+    },
+    {
+      "type": "broken_image",
+      "url": "https://auralo.store/images/product/download%20(52).png"
+    }
+  ],
+  "screenshots": []
+}

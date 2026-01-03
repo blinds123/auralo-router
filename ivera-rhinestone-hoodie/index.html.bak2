@@ -1073,7 +1073,7 @@
         <img
           class="main-img"
           id="mainImage"
-          src="/ivera-rhinestone-hoodie/images/product/download (22).png"
+          src="./ivera-rhinestone-hoodie/images/product/download (22).png"
           alt="IVERA BackLuxe Rhinestone Hoodie"
         />
 
@@ -1149,37 +1149,37 @@
       <div class="thumb-container" id="thumbs">
         <img
           class="thumb active"
-          src="/ivera-rhinestone-hoodie/images/product/download (22).png"
+          src="./ivera-rhinestone-hoodie/images/product/download (22).png"
           onclick="switchImage(this)"
           alt=""
         />
         <img
           class="thumb"
-          src="/ivera-rhinestone-hoodie/images/product/download (23).png"
+          src="./ivera-rhinestone-hoodie/images/product/download (23).png"
           onclick="switchImage(this)"
           alt=""
         />
         <img
           class="thumb"
-          src="/ivera-rhinestone-hoodie/images/product/download (24).png"
+          src="./ivera-rhinestone-hoodie/images/product/download (24).png"
           onclick="switchImage(this)"
           alt=""
         />
         <img
           class="thumb"
-          src="/ivera-rhinestone-hoodie/images/product/download (25).png"
+          src="./ivera-rhinestone-hoodie/images/product/download (25).png"
           onclick="switchImage(this)"
           alt=""
         />
         <img
           class="thumb"
-          src="/ivera-rhinestone-hoodie/images/product/download (26).png"
+          src="./ivera-rhinestone-hoodie/images/product/download (26).png"
           onclick="switchImage(this)"
           alt=""
         />
         <img
           class="thumb"
-          src="/ivera-rhinestone-hoodie/images/product/download (35).png"
+          src="./ivera-rhinestone-hoodie/images/product/download (35).png"
           onclick="switchImage(this)"
           alt=""
         />
@@ -1329,7 +1329,7 @@
             "
           >
             <img
-              src="/ivera-rhinestone-hoodie/images/product/download (59).png"
+              src="./ivera-rhinestone-hoodie/images/product/download (59).png"
               alt="Crystal Glam Accessory Set"
               style="
                 width: 100%;
@@ -1406,10 +1406,10 @@
           <h3>THE NEW</h3>
         </div>
         <div class="comparison-slider__background">
-          <img src="/ivera-rhinestone-hoodie/images/product/download (46).png" alt="The new way" />
+          <img src="./ivera-rhinestone-hoodie/images/product/download (46).png" alt="The new way" />
         </div>
         <div class="comparison-slider__overlay">
-          <img src="/ivera-rhinestone-hoodie/images/product/download (34).png" alt="The old way" />
+          <img src="./ivera-rhinestone-hoodie/images/product/download (34).png" alt="The old way" />
         </div>
         <input
           type="range"
@@ -1426,10 +1426,10 @@
        SECTION 13: MEDIA LOGOS
        ========================================== -->
     <div class="media-logos">
-      <img src="/ivera-rhinestone-hoodie/images/logos/vh1.svg" alt="VH1" />
-      <img src="/ivera-rhinestone-hoodie/images/logos/vogue.svg" alt="VOGUE" />
-      <img src="/ivera-rhinestone-hoodie/images/logos/bazaar.png" alt="Harper's Bazaar" />
-      <img src="/ivera-rhinestone-hoodie/images/logos/love-hip-hop.png" alt="Love & Hip Hop" />
+      <img src="./ivera-rhinestone-hoodie/images/logos/vh1.svg" alt="VH1" />
+      <img src="./ivera-rhinestone-hoodie/images/logos/vogue.svg" alt="VOGUE" />
+      <img src="./ivera-rhinestone-hoodie/images/logos/bazaar.png" alt="Harper's Bazaar" />
+      <img src="./ivera-rhinestone-hoodie/images/logos/love-hip-hop.png" alt="Love & Hip Hop" />
     </div>
 
     <!-- ==========================================
@@ -1492,7 +1492,7 @@
     <div class="img-text-section">
       <div class="img-text-image-wrapper" style="position: relative">
         <img
-          src="/ivera-rhinestone-hoodie/images/product/download (28).png"
+          src="./ivera-rhinestone-hoodie/images/product/download (28).png"
           alt="IVERA BackLuxe Rhinestone Hoodie lifestyle"
           loading="lazy"
           style="width: 100%; height: auto; display: block"
@@ -1580,7 +1580,7 @@
     <div class="img-text-section">
       <div class="img-text-image-wrapper" style="position: relative">
         <img
-          src="/ivera-rhinestone-hoodie/images/product/download (29).png"
+          src="./ivera-rhinestone-hoodie/images/product/download (29).png"
           alt="IVERA BackLuxe Rhinestone Hoodie lifestyle"
           loading="lazy"
           style="width: 100%; height: auto; display: block"
@@ -1657,7 +1657,7 @@
     <div class="img-text-section">
       <div class="img-text-image-wrapper" style="position: relative">
         <img
-          src="/ivera-rhinestone-hoodie/images/product/download (30).png"
+          src="./ivera-rhinestone-hoodie/images/product/download (30).png"
           alt="IVERA BackLuxe Rhinestone Hoodie lifestyle"
           loading="lazy"
           style="width: 100%; height: auto; display: block"
@@ -1715,7 +1715,7 @@
     <div class="img-text-section">
       <div class="img-text-image-wrapper" style="position: relative">
         <img
-          src="/ivera-rhinestone-hoodie/images/product/download (31).png"
+          src="./ivera-rhinestone-hoodie/images/product/download (31).png"
           alt="IVERA BackLuxe Rhinestone Hoodie lifestyle"
           loading="lazy"
           style="width: 100%; height: auto; display: block"
@@ -1727,7 +1727,7 @@
     <div class="img-text-section">
       <div class="img-text-image-wrapper" style="position: relative">
         <img
-          src="/ivera-rhinestone-hoodie/images/product/download (32).png"
+          src="./ivera-rhinestone-hoodie/images/product/download (32).png"
           alt="IVERA BackLuxe Rhinestone Hoodie lifestyle"
           loading="lazy"
           style="width: 100%; height: auto; display: block"
@@ -1739,7 +1739,7 @@
     <div class="img-text-section">
       <div class="img-text-image-wrapper" style="position: relative">
         <img
-          src="/ivera-rhinestone-hoodie/images/product/download (33).png"
+          src="./ivera-rhinestone-hoodie/images/product/download (33).png"
           alt="IVERA BackLuxe Rhinestone Hoodie lifestyle"
           loading="lazy"
           style="width: 100%; height: auto; display: block"
@@ -1852,7 +1852,7 @@
           </div>
         </div>
         <div class="faq-image">
-          <img src="/ivera-rhinestone-hoodie/images/product/download (30).png" alt="" />
+          <img src="./ivera-rhinestone-hoodie/images/product/download (30).png" alt="" />
         </div>
       </div>
     </div>
@@ -1873,7 +1873,7 @@
     <div class="guarantee-section">
       <div class="guarantee-grid">
         <div class="guarantee-image">
-          <img src="/ivera-rhinestone-hoodie/images/product/download (52).png" alt="" />
+          <img src="./ivera-rhinestone-hoodie/images/product/download (52).png" alt="" />
         </div>
         <div class="guarantee-content">
           <h2>30-Day Sparkle Guarantee</h2>
@@ -2224,7 +2224,7 @@
         reviewsGrid.innerHTML += `
         <div class="review-card">
           <div class="review-avatar-container">
-            <img src="/ivera-rhinestone-hoodie/images/product/${review.img}" alt="${review.name}" class="review-avatar">
+            <img src="./ivera-rhinestone-hoodie/images/product/${review.img}" alt="${review.name}" class="review-avatar">
             <div class="review-quote-icon">"</div>
           </div>
           <div class="review-stars">★★★★★</div>
