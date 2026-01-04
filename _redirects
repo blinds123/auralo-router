@@ -20,5 +20,10 @@
 /ivera-backluxe-hoodie/ https://ivera-backluxe-hoodie.netlify.app/ 200!
 /ivera-backluxe-hoodie/* https://ivera-backluxe-hoodie.netlify.app/:splat 200!
 
+# Red Glitter Corset - proxy to Netlify
+/red-glitter-corset https://red-glitter-corset-auralo.netlify.app/product.html 200!
+/red-glitter-corset/ https://red-glitter-corset-auralo.netlify.app/product.html 200!
+/red-glitter-corset/* https://red-glitter-corset-auralo.netlify.app/:splat 200!
+
 # Add new products below (one line each):
 # /bodysuit/* https://brand-bodysuit-landing.netlify.app/:splat 200
