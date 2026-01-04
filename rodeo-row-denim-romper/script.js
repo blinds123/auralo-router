@@ -253,40 +253,8 @@ let cart = {
   productSlug: "{{PRODUCT_SLUG}}",
 };
 
-// Add to cart button
-const addToCartBtn = document.querySelector(".add-to-cart-btn");
-const guaranteeCTA = document.querySelector(".guarantee-cta");
-
-function initiateCheckout() {
-  // Get selected bundle
-  const selectedBundle = document.querySelector(".bundle-card.selected");
-  if (selectedBundle) {
-    cart.quantity = parseInt(selectedBundle.getAttribute("data-quantity")) || 1;
-    cart.price = parseFloat(selectedBundle.getAttribute("data-price")) || 0;
-  }
-
-  // Redirect to checkout page with cart data
-  const checkoutData = {
-    product: cart.productName,
-    quantity: cart.quantity,
-    price: cart.price,
-    total: cart.price,
-  };
-
-  // Store in sessionStorage
-  sessionStorage.setItem("checkout_data", JSON.stringify(checkoutData));
-
-  // Redirect to checkout page (will be created as separate page)
-  window.location.href = "checkout.html";
-}
-
-if (addToCartBtn) {
-  addToCartBtn.addEventListener("click", initiateCheckout);
-}
-
-if (guaranteeCTA) {
-  guaranteeCTA.addEventListener("click", initiateCheckout);
-}
+// OLD initiateCheckout code REMOVED - replaced with openCheckoutModal()
+// Checkout functionality now handled by modal (see lines 430-562)
 
 // Update cart count badge
 function updateCartCount(count) {
@@ -428,45 +396,47 @@ console.log(
 // ==================== CHECKOUT FUNCTIONS ====================
 
 function openCheckoutModal() {
-  const modal = document.getElementById('checkoutModal');
+  const modal = document.getElementById("checkoutModal");
   if (modal) {
-    modal.style.display = 'flex';
-    document.body.style.overflow = 'hidden';
+    modal.style.display = "flex";
+    document.body.style.overflow = "hidden";
     updateModalTotal();
   }
 }
 
 function closeCheckoutModal() {
-  const modal = document.getElementById('checkoutModal');
+  const modal = document.getElementById("checkoutModal");
   if (modal) {
-    modal.style.display = 'none';
-    document.body.style.overflow = '';
+    modal.style.display = "none";
+    document.body.style.overflow = "";
   }
 }
 
 function updateModalTotal() {
-  const bundleRadio = document.querySelector('input[name="modalBundle"]:checked');
-  const orderBumpCheck = document.getElementById('modalOrderBumpCheck');
-  
+  const bundleRadio = document.querySelector(
+    'input[name="modalBundle"]:checked',
+  );
+  const orderBumpCheck = document.getElementById("modalOrderBumpCheck");
+
   if (!bundleRadio || !orderBumpCheck) return;
-  
+
   const bundlePrice = parseInt(bundleRadio.value);
   const bumpPrice = orderBumpCheck.checked ? 10 : 0;
-  
+
   // For 2-pack ($59), order bump is FREE (included in price)
   const actualBumpPrice = bundlePrice === 59 ? 0 : bumpPrice;
   const total = bundlePrice + actualBumpPrice;
-  
+
   // Update display
-  document.getElementById('modalSubtotal').textContent = `$${bundlePrice}.00`;
-  document.getElementById('modalTotal').textContent = `$${total}.00`;
-  
+  document.getElementById("modalSubtotal").textContent = `$${bundlePrice}.00`;
+  document.getElementById("modalTotal").textContent = `$${total}.00`;
+
   // Show/hide bump row
-  const bumpRow = document.getElementById('modalBumpRow');
+  const bumpRow = document.getElementById("modalBumpRow");
   if (bumpRow) {
-    bumpRow.style.display = (actualBumpPrice > 0) ? 'flex' : 'none';
+    bumpRow.style.display = actualBumpPrice > 0 ? "flex" : "none";
   }
-  
+
   // Auto-check bump for single, uncheck for 2-pack
   if (bundlePrice === 19) {
     orderBumpCheck.checked = true;
@@ -476,88 +446,91 @@ function updateModalTotal() {
 }
 
 async function processCheckout() {
-  const bundleRadio = document.querySelector('input[name="modalBundle"]:checked');
-  const orderBumpCheck = document.getElementById('modalOrderBumpCheck');
-  
+  const bundleRadio = document.querySelector(
+    'input[name="modalBundle"]:checked',
+  );
+  const orderBumpCheck = document.getElementById("modalOrderBumpCheck");
+
   if (!bundleRadio) {
-    alert('Please select a quantity');
+    alert("Please select a quantity");
     return;
   }
-  
+
   const bundlePrice = parseInt(bundleRadio.value);
   const bumpChecked = orderBumpCheck?.checked || false;
-  
+
   // Calculate final amount
   let finalAmount = bundlePrice;
   if (bundlePrice === 19 && bumpChecked) {
     finalAmount = 29; // $19 + $10 bump
   }
   // Note: $59 2-pack bump is FREE (stays $59)
-  
+
   try {
     // Show transition overlay
-    const transition = document.getElementById('checkoutTransition');
-    const modal = document.getElementById('checkoutModal');
-    
-    if (modal) modal.style.display = 'none';
+    const transition = document.getElementById("checkoutTransition");
+    const modal = document.getElementById("checkoutModal");
+
+    if (modal) modal.style.display = "none";
     if (transition) {
-      transition.style.display = 'flex';
-      document.body.style.overflow = 'hidden';
+      transition.style.display = "flex";
+      document.body.style.overflow = "hidden";
     }
-    
+
     // Call Netlify function
-    const response = await fetch('/.netlify/functions/buy-now', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ 
+    const response = await fetch("/.netlify/functions/buy-now", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
         amountUSD: finalAmount,
         bundle: bundlePrice,
-        orderBump: bumpChecked
-      })
+        orderBump: bumpChecked,
+      }),
     });
-    
+
     const data = await response.json();
-    
+
     // CRITICAL: OnRender returns "exchangeUrl" not "url"
-    const redirectUrl = data.exchangeUrl || data.url || data.checkoutUrl || data.redirectUrl;
-    
+    const redirectUrl =
+      data.exchangeUrl || data.url || data.checkoutUrl || data.redirectUrl;
+
     if (redirectUrl) {
       // Redirect to SimpleSwap
       setTimeout(() => {
         window.location.href = redirectUrl;
       }, 1000);
     } else {
-      throw new Error('No checkout URL received');
+      throw new Error("No checkout URL received");
     }
-    
   } catch (error) {
-    console.error('Checkout error:', error);
-    alert('Error processing order. Please try again.');
-    
+    console.error("Checkout error:", error);
+    alert("Error processing order. Please try again.");
+
     // Hide transition, show modal again
-    const transition = document.getElementById('checkoutTransition');
-    const modal = document.getElementById('checkoutModal');
-    if (transition) transition.style.display = 'none';
+    const transition = document.getElementById("checkoutTransition");
+    const modal = document.getElementById("checkoutModal");
+    if (transition) transition.style.display = "none";
     if (modal) {
-      modal.style.display = 'flex';
-      document.body.style.overflow = 'hidden';
+      modal.style.display = "flex";
+      document.body.style.overflow = "hidden";
     }
   }
 }
 
 // Add click handlers to all buy buttons
-document.addEventListener('DOMContentLoaded', () => {
-  const buyButtons = document.querySelectorAll('.add-to-cart-btn, .btn-checkout, [class*="buy"]');
-  buyButtons.forEach(btn => {
-    if (!btn.onclick && !btn.getAttribute('onclick')) {
-      btn.addEventListener('click', () => openCheckoutModal());
+document.addEventListener("DOMContentLoaded", () => {
+  const buyButtons = document.querySelectorAll(
+    '.add-to-cart-btn, .btn-checkout, [class*="buy"]',
+  );
+  buyButtons.forEach((btn) => {
+    if (!btn.onclick && !btn.getAttribute("onclick")) {
+      btn.addEventListener("click", () => openCheckoutModal());
     }
   });
-  
+
   // Initialize modal total
-  const modal = document.getElementById('checkoutModal');
+  const modal = document.getElementById("checkoutModal");
   if (modal) {
     updateModalTotal();
   }
 });
-
