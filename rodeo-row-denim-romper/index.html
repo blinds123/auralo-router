@@ -1,0 +1,815 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rodeo Row Denim Romper | Transform Your Look</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Material Icons -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Section 0: Announcement Bar (Sticky) -->
+    <div class="announcement-bar">
+      <p>🔥 100+ orders in last 24h - Limited stock!</p>
+    </div>
+
+    <!-- Section 1: Header/Navigation (Sticky) -->
+    <header class="header">
+      <div class="header-container">
+        <div class="header-left">
+          <button class="mobile-menu-toggle" aria-label="Open menu">
+            <span class="material-symbols-outlined">menu</span>
+          </button>
+          <a href="/" class="logo">
+            <img src="https://via.placeholder.com/120x40/111111/E5FF00?text=AURALO" alt="Auralo" />
+          </a>
+        </div>
+
+        <nav class="header-nav desktop-only">
+          <a href="/">HOME</a>
+          <a href="#buy-now">BUY NOW</a>
+          <a href="#contact">CONTACT</a>
+        </nav>
+
+        <div class="header-actions">
+          <button class="icon-btn" aria-label="Account">
+            <span class="material-symbols-outlined">person</span>
+          </button>
+          <button class="icon-btn cart-btn" aria-label="Cart">
+            <span class="material-symbols-outlined">shopping_bag</span>
+            <span class="cart-count">0</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Menu Drawer -->
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="mobile-menu-header">
+        <button class="mobile-menu-close" aria-label="Close menu">
+          <span class="material-symbols-outlined">close</span>
+        </button>
+      </div>
+      <nav class="mobile-nav">
+        <a href="/">HOME</a>
+        <a href="#buy-now">BUY NOW</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+    </div>
+
+    <!-- Section 2: Hero Gallery + Product Info -->
+    <section class="hero-section" id="buy-now">
+      <div class="hero-container">
+        <!-- Left Column: Product Gallery -->
+        <div class="product-gallery">
+          <div class="main-image-container">
+            <img
+              src="images/product/product-1.jpg"
+              alt="Rodeo Row Denim Romper"
+              class="main-image"
+              id="mainImage"
+            />
+            <!-- TikTok Overlay -->
+            <div class="tiktok-overlay" style="max-width: 180px">
+              <div class="tiktok-question">
+                <strong class="tiktok-username">@styleicon</strong>
+                <p class="tiktok-comment">is this actually comfortable to dance in? 🤔</p>
+              </div>
+              <div class="tiktok-answer">
+                <p class="tiktok-comment">YES!! super comfy, wore it all night 💃</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="thumbnail-grid">
+            <button
+              class="thumbnail active"
+              data-image="images/product/product-1.jpg"
+              data-overlay='{"question":{"username":"styleicon","text":"is this actually comfortable to dance in? 🤔"},"answer":"YES!! super comfy, wore it all night 💃"}'
+            >
+              <img src="images/product/product-1.jpg" alt="View 1" />
+            </button>
+            <button
+              class="thumbnail"
+              data-image="images/product/product-2.jpg"
+              data-overlay='{"question":{"username":"fashionbabe","text":"omg where did u get this???"},"answer":"link in bio babe! but it's almost sold out 😱"}'
+            >
+              <img src="images/product/product-2.jpg" alt="View 2" />
+            </button>
+            <button
+              class="thumbnail"
+              data-image="images/product/product-3.jpg"
+              data-overlay='{"question":{"username":"trendygirl","text":"does it run true to size?"},"answer":"yes! i'm a medium and got medium, fits perfect"}'
+            >
+              <img src="images/product/product-3.jpg" alt="View 3" />
+            </button>
+            <button
+              class="thumbnail"
+              data-image="images/product/product-4.jpg"
+              data-overlay='{"question":{"username":"denimqueen","text":"will the denim stretch out?"},"answer":"nope! quality denim, holds shape"}'
+            >
+              <img src="images/product/product-4.jpg" alt="View 4" />
+            </button>
+            <button
+              class="thumbnail"
+              data-image="images/product/product-5.jpg"
+              data-overlay='{"question":{"username":"ootdlover","text":"can i wear this to work? 😅"},"answer":"depends on your job lol but it's SO cute"}'
+            >
+              <img src="images/product/product-5.jpg" alt="View 5" />
+            </button>
+          </div>
+        </div>
+
+        <!-- Right Column: Product Info -->
+        <div class="product-info">
+          <h1 class="product-title">Rodeo Row Denim Romper</h1>
+
+          <div
+            class="reviews-summary"
+            onclick="window.location.href = '#reviews'"
+          >
+            <div class="stars">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+            </div>
+            <span class="review-count">(287 reviews)</span>
+          </div>
+
+          <div class="rotating-testimonial" id="rotatingTestimonial">
+            <p class="testimonial-text">I used to be the girl in the corner. Now I'm the girl everyone wants to talk to.</p>
+          </div>
+
+          <div class="price-container">
+            <span class="price">$19</span>
+            
+            <span class="original-price">$120</span>
+            
+          </div>
+
+          <div class="feature-badges">
+            <div class="badge-card">
+              <span class="material-symbols-outlined">stars</span>
+              <h4>Sparkling rhinestone crystal mesh back panel</h4>
+              <p>Get noticed everywhere</p>
+            </div>
+            <div class="badge-card">
+              <span class="material-symbols-outlined">verified</span>
+              <h4>Premium heavyweight cotton</h4>
+              <p>Holds shape, looks expensive</p>
+            </div>
+            <div class="badge-card">
+              <span class="material-symbols-outlined">local_shipping</span>
+              <h4>Cropped fit</h4>
+              <p>Shows off your waist perfectly</p>
+            </div>
+            <div class="badge-card">
+              <span class="material-symbols-outlined">credit_card</span>
+              <h4>True to size</h4>
+              <p>No guessing game</p>
+            </div>
+          </div>
+
+          <button class="btn-primary add-to-cart-btn">
+            Add to Cart - $19
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Trust Bar / Media Mentions -->
+    <section class="trust-bar">
+      <p class="trust-bar-title">AS SEEN IN</p>
+      <div class="logo-row">
+        <img
+          src="images/logos/trust-badge-1.svg"
+          alt="Media Logo 1"
+          class="trust-logo"
+        />
+        <img
+          src="images/logos/trust-badge-2.svg"
+          alt="Media Logo 2"
+          class="trust-logo"
+        />
+        <img
+          src="images/logos/trust-badge-3.svg"
+          alt="Media Logo 3"
+          class="trust-logo"
+        />
+        <img
+          src="images/logos/trust-badge-4.svg"
+          alt="Media Logo 4"
+          class="trust-logo"
+        />
+      </div>
+    </section>
+
+    <!-- Section 4: Comparison Slider (Before/After) -->
+    <section class="comparison-section">
+      <div class="comparison-container">
+        <h2 class="comparison-heading">Why Switch From Basic Rompers?</h2>
+
+        <div class="comparison-slider-wrapper">
+          <div class="comparison-slider" id="comparisonSlider">
+            <div class="comparison-image-container">
+              <img
+                src="images/comparison/after.jpg"
+                alt="After"
+                class="comparison-after"
+              />
+              <span class="comparison-label label-after">YOU: Sparkling statement piece that makes YOU the main character</span>
+            </div>
+            <div class="comparison-overlay">
+              <img
+                src="images/comparison/before.jpg"
+                alt="Before"
+                class="comparison-before"
+              />
+              <span class="comparison-label label-before"
+                >THEM: Basic hoodies that make you blend in</span
+              >
+            </div>
+            <div class="comparison-handle" id="comparisonHandle">
+              <div class="handle-circle">
+                <span class="material-symbols-outlined"
+                  >keyboard_double_arrow_left</span
+                >
+                <span class="material-symbols-outlined"
+                  >keyboard_double_arrow_right</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p class="comparison-subtext">See the difference quality makes</p>
+      </div>
+    </section>
+
+    <!-- Section 5: Bundle/Pricing Selection -->
+    <section class="bundle-section">
+      <div class="bundle-container">
+        <h2 class="bundle-heading">CHOOSE YOUR BUNDLE</h2>
+
+        <div class="bundle-cards">
+          <div
+            class="bundle-card"
+            data-quantity="1"
+            data-price=""
+          >
+            <input type="radio" name="bundle" id="bundle1" value="1" />
+            <label for="bundle1">
+              <div class="bundle-content">
+                <p class="bundle-quantity">1x Rodeo Row Denim Romper</p>
+                <p class="bundle-price">$</p>
+                <div class="radio-indicator"></div>
+              </div>
+            </label>
+          </div>
+
+          <div
+            class="bundle-card selected"
+            data-quantity="2"
+            data-price=""
+          >
+            <span class="bundle-badge">BEST VALUE</span>
+            <input type="radio" name="bundle" id="bundle2" value="2" checked />
+            <label for="bundle2">
+              <div class="bundle-content">
+                <p class="bundle-quantity">2x Rodeo Row Denim Romper</p>
+                <p class="bundle-price">$</p>
+                <p class="bundle-original">$</p>
+                <p class="bundle-savings">
+                  SAVE $ (%)
+                </p>
+                <div class="radio-indicator"></div>
+              </div>
+            </label>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 6-9: Benefits Sections (4 sections with alternating layouts) -->
+    <!-- Benefit Section 1: Text Left, Image Right -->
+    <section class="benefit-section benefit-1">
+      <div class="benefit-container">
+        <div class="benefit-text">
+          <p class="benefit-eyebrow">BENEFIT 1</p>
+          <h2 class="benefit-heading">Get Noticed (In a Good Way)</h2>
+          <p class="benefit-body">You know that feeling when you walk into a room and nobody looks? Yeah, we hate that too. The crystal mesh back panel catches every light, every angle, every eye. You're not invisible anymore.</p>
+
+          <ul class="benefit-features">
+            <li>
+              <span class="material-symbols-outlined">check_circle</span>
+              <span>Feature 1</span>
+            </li>
+            <li>
+              <span class="material-symbols-outlined">check_circle</span>
+              <span>Feature 2</span>
+            </li>
+            <li>
+              <span class="material-symbols-outlined">check_circle</span>
+              <span>Feature 3</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="benefit-image-wrapper">
+          <img
+            src="images/lifestyle/lifestyle-1.jpg"
+            alt="Get Noticed (In a Good Way)"
+            class="benefit-image"
+          />
+          <div
+            class="tiktok-overlay lifestyle-overlay"
+            style="max-width: 160px"
+          >
+            <p class="tiktok-comment">💡 Pro tip #1</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefit Section 2: Image Left, Text Right (Alternating) -->
+    <section class="benefit-section benefit-2 alt-bg">
+      <div class="benefit-container reverse">
+        <div class="benefit-text">
+          <p class="benefit-eyebrow">BENEFIT 2</p>
+          <h2 class="benefit-heading">Look Expensive (Without the Price Tag)</h2>
+          <p class="benefit-body">Premium heavyweight cotton. Crystal details that actually stay on. A fit that flatters your waist. People will think you spent triple. Your secret's safe with us.</p>
+
+          <ul class="benefit-features">
+            <li>
+              <span class="material-symbols-outlined">check_circle</span>
+              <span>Feature 1</span>
+            </li>
+            <li>
+              <span class="material-symbols-outlined">check_circle</span>
+              <span>Feature 2</span>
+            </li>
+            <li>
+              <span class="material-symbols-outlined">check_circle</span>
+              <span>Feature 3</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="benefit-image-wrapper">
+          <img
+            src="images/lifestyle/lifestyle-2.jpg"
+            alt="Look Expensive (Without the Price Tag)"
+            class="benefit-image"
+          />
+          <div
+            class="tiktok-overlay lifestyle-overlay"
+            style="max-width: 160px"
+          >
+            <p class="tiktok-comment">💡 Pro tip #2</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefit Section 3: Text Left, Image Right -->
+    <section class="benefit-section benefit-3">
+      <div class="benefit-container">
+        <div class="benefit-text">
+          <p class="benefit-eyebrow">BENEFIT 3</p>
+          <h2 class="benefit-heading">Feel Confident (Because You Are)</h2>
+          <p class="benefit-body">You deserve to be seen - You deserve to sparkle. This hoodie isn't just clothes, it's armor. When you wear it, you're not going to the party. You ARE the party.</p>
+
+          <ul class="benefit-features">
+            <li>
+              <span class="material-symbols-outlined">check_circle</span>
+              <span>Feature 1</span>
+            </li>
+            <li>
+              <span class="material-symbols-outlined">check_circle</span>
+              <span>Feature 2</span>
+            </li>
+            <li>
+              <span class="material-symbols-outlined">check_circle</span>
+              <span>Feature 3</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="benefit-image-wrapper">
+          <img
+            src="images/lifestyle/lifestyle-3.jpg"
+            alt="Feel Confident (Because You Are)"
+            class="benefit-image"
+          />
+          <div
+            class="tiktok-overlay lifestyle-overlay"
+            style="max-width: 160px"
+          >
+            <p class="tiktok-comment">💡 Pro tip #3</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefit Section 4: Image Left, Text Right (Alternating) -->
+    <section class="benefit-section benefit-4 alt-bg">
+      <div class="benefit-container reverse">
+        <div class="benefit-text">
+          <p class="benefit-eyebrow">BENEFIT 4</p>
+          <h2 class="benefit-heading">Stay Comfortable (All Night Long)</h2>
+          <p class="benefit-body">Dancing? Check. Posing for photos? Check. Actually enjoying the night instead of tugging at your clothes? Double check. Soft, breathable, and built for movement.</p>
+
+          <ul class="benefit-features">
+            <li>
+              <span class="material-symbols-outlined">check_circle</span>
+              <span>Feature 1</span>
+            </li>
+            <li>
+              <span class="material-symbols-outlined">check_circle</span>
+              <span>Feature 2</span>
+            </li>
+            <li>
+              <span class="material-symbols-outlined">check_circle</span>
+              <span>Feature 3</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="benefit-image-wrapper">
+          <img
+            src="images/lifestyle/lifestyle-4.jpg"
+            alt="Stay Comfortable (All Night Long)"
+            class="benefit-image"
+          />
+          <div
+            class="tiktok-overlay lifestyle-overlay"
+            style="max-width: 160px"
+          >
+            <p class="tiktok-comment">💡 Pro tip #4</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 10: Founder Story -->
+    <section class="founder-section">
+      <div class="founder-container">
+        <div class="founder-text">
+          <p class="founder-eyebrow">OUR STORY</p>
+          <h2 class="founder-heading"></h2>
+          <p class="founder-story">I'm Trendsetter, just like you. I went to parties, clubs, dates, and felt... nothing special. Just another girl in another basic top.
+
+So I made something different. Something that says 'I'm here' without screaming for attention. The crystal mesh back panel? That's your secret weapon. Subtle but powerful. Like you.
+
+This isn't just a hoodie. It's permission to sparkle.</p>
+          <p class="founder-name">— , </p>
+        </div>
+
+        <div class="founder-image-wrapper">
+          <img
+            src="images/logos/founder.jpg"
+            alt=""
+            class="founder-image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 11-13: Segment Targeting (Use Cases) -->
+    <!-- Segment 1 -->
+    <section class="segment-section segment-1 alt-bg">
+      <div class="segment-container">
+        <div class="segment-text">
+          <h2 class="segment-heading"></h2>
+          <p class="segment-body"></p>
+        </div>
+
+        <div class="segment-image-wrapper">
+          <img
+            src="images/lifestyle/segment-1.jpg"
+            alt=""
+            class="segment-image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Segment 2 -->
+    <section class="segment-section segment-2">
+      <div class="segment-container reverse">
+        <div class="segment-text">
+          <h2 class="segment-heading"></h2>
+          <p class="segment-body"></p>
+        </div>
+
+        <div class="segment-image-wrapper">
+          <img
+            src="images/lifestyle/segment-2.jpg"
+            alt=""
+            class="segment-image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Segment 3 -->
+    <section class="segment-section segment-3 alt-bg">
+      <div class="segment-container">
+        <div class="segment-text">
+          <h2 class="segment-heading"></h2>
+          <p class="segment-body"></p>
+        </div>
+
+        <div class="segment-image-wrapper">
+          <img
+            src="images/lifestyle/segment-3.jpg"
+            alt=""
+            class="segment-image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 14: FAQ Accordion -->
+    <section class="faq-section">
+      <div class="faq-container">
+        <h2 class="faq-heading">FREQUENTLY ASKED QUESTIONS</h2>
+
+        <div class="faq-accordion">
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Will the crystals fall off?</span>
+              <span class="material-symbols-outlined">add</span>
+            </button>
+            <div class="faq-answer">
+              <p>Nope. We use premium crystal application that survives washing, dancing, and living. These are made to last.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Is it true to size?</span>
+              <span class="material-symbols-outlined">add</span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes. Our fit is consistent and reliable. Order your usual size for the perfect cropped fit.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Can I machine wash it?</span>
+              <span class="material-symbols-outlined">add</span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes. Cold water, gentle cycle, lay flat to dry. Your crystals stay sparkling.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Will this look good on me?</span>
+              <span class="material-symbols-outlined">add</span>
+            </button>
+            <div class="faq-answer">
+              <p>You deserve to be seen. This is designed to make YOU feel confident. That's the point.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>How long until I get it?</span>
+              <span class="material-symbols-outlined">add</span>
+            </button>
+            <div class="faq-answer">
+              <p>Fast shipping. Most orders arrive in 5-7 business days. The countdown starts when you order.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Frequently Asked Question 6?</span>
+              <span class="material-symbols-outlined">add</span>
+            </button>
+            <div class="faq-answer">
+              <p>Answer to question 6</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span></span>
+              <span class="material-symbols-outlined">add</span>
+            </button>
+            <div class="faq-answer">
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 15: How It Works -->
+    <section class="how-it-works-section">
+      <div class="how-it-works-overlay"></div>
+      <div class="how-it-works-container">
+        <h2 class="how-it-works-heading"></h2>
+
+        <div class="steps-grid">
+          <div class="step-card">
+            <div class="step-number">1</div>
+            <h3 class="step-title"></h3>
+            <p class="step-description"></p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">2</div>
+            <h3 class="step-title"></h3>
+            <p class="step-description"></p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">3</div>
+            <h3 class="step-title"></h3>
+            <p class="step-description"></p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">4</div>
+            <h3 class="step-title"></h3>
+            <p class="step-description"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 16: Testimonials Carousel (Reviews) -->
+    <section class="testimonials-section" id="reviews">
+      <div class="testimonials-container">
+        <h2 class="testimonials-heading"></h2>
+        <p class="testimonials-subheading"></p>
+
+        <div class="reviews-grid">
+          <!-- Review cards will be dynamically generated from testimonials folder -->
+          <!-- Template for 16 reviews -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 17: Risk Reversal (30-Day Guarantee) -->
+    <section class="guarantee-section">
+      <div class="guarantee-container">
+        <span class="material-symbols-outlined guarantee-icon"
+          >verified_user</span
+        >
+        <h2 class="guarantee-heading">30-DAY RISK-FREE GUARANTEE</h2>
+        <p class="guarantee-subheading">
+          Love it or your money back. No questions asked.
+        </p>
+
+        <div class="guarantee-points">
+          <div class="guarantee-point">
+            <span class="material-symbols-outlined">check_circle</span>
+            <h3>Try for 30 Days</h3>
+            <p>Wear it, test it, love it. Full 30 days to decide.</p>
+          </div>
+
+          <div class="guarantee-point">
+            <span class="material-symbols-outlined">local_shipping</span>
+            <h3>Free Returns</h3>
+            <p>Not happy? Return for free. We cover shipping both ways.</p>
+          </div>
+
+          <div class="guarantee-point">
+            <span class="material-symbols-outlined">refresh</span>
+            <h3>Full Refund</h3>
+            <p>Get 100% of your money back. No restocking fees.</p>
+          </div>
+        </div>
+
+        <button class="btn-primary guarantee-cta">SHOP NOW - RISK FREE</button>
+      </div>
+    </section>
+
+    <!-- Section 18: Founder Closing (Emotional) -->
+    <section class="closing-section">
+      <div class="closing-container">
+        <img
+          src="images/logos/founder.jpg"
+          alt=""
+          class="closing-founder-image"
+        />
+        <p class="closing-quote">"You deserve to look and feel amazing in quality denim."</p>
+        <p class="closing-name"></p>
+      </div>
+    </section>
+
+    <!-- Section 19: Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-links">
+          <div class="footer-column">
+            <h4>Shop</h4>
+            <a href="/">Shop All</a>
+            <a href="/">Best Sellers</a>
+            <a href="/">New Arrivals</a>
+          </div>
+
+          <div class="footer-column">
+            <h4>Support</h4>
+            <a href="/contact">Contact Us</a>
+            <a href="/track">Track Order</a>
+            <a href="#faq">FAQ</a>
+            <a href="/returns">Returns</a>
+          </div>
+
+          <div class="footer-column">
+            <h4>Company</h4>
+            <a href="/about">About Us</a>
+            <a href="/story">Our Story</a>
+            <a href="#reviews">Reviews</a>
+            <a href="/privacy">Privacy Policy</a>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">© 2026 Auralo. All rights reserved.</p>
+          <div class="social-icons">
+            <a href="https://instagram.com/auralo" aria-label="Instagram">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+                />
+              </svg>
+            </a>
+            <a href="https://facebook.com/auralo" aria-label="Facebook">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                />
+              </svg>
+            </a>
+            <a href="https://tiktok.com/@auralo" aria-label="TikTok">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"
+                />
+              </svg>
+            </a>
+            <a href="" aria-label="Pinterest">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 0c-6.627 0-12 5.372-12 12 0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146 1.124.347 2.317.535 3.554.535 6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+  </body>
+</html>
