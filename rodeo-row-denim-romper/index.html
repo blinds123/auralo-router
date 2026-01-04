@@ -944,13 +944,45 @@ This isn't just a hoodie. It's permission to sparkle.</p>
     </div>
 
     <!-- Loading Overlay -->
-    <div id="checkoutTransition" class="checkout-transition" style="display: none;">
-      <div class="loading-content">
-        <div class="spinner"></div>
-        <h3>Processing your order...</h3>
-        <p>Redirecting to secure checkout</p>
-      </div>
+    <div id="checkoutTransition" style="
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(17, 17, 17, 0.95);
+      z-index: 99999;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 24px;
+    ">
+      <div style="
+        width: 60px;
+        height: 60px;
+        border: 4px solid rgba(229, 255, 0, 0.3);
+        border-top-color: #E5FF00;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      "></div>
+      <div style="
+        color: #fff;
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center;
+      ">Creating your order...</div>
+      <div style="
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 14px;
+      ">Please wait while we prepare your secure checkout</div>
     </div>
+
+    <style>
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    </style>
 
 </body>
 </html>
