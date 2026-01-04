@@ -20,5 +20,9 @@
 /ivera-backluxe-hoodie/ https://ivera-backluxe-hoodie.netlify.app/ 200!
 /ivera-backluxe-hoodie/* https://ivera-backluxe-hoodie.netlify.app/:splat 200!
 
+# Little Red Corset - served locally from this router
+/littleredcorset /index.html 200
+/littleredcorset/* /index.html 200
+
 # Add new products below (one line each):
 # /bodysuit/* https://brand-bodysuit-landing.netlify.app/:splat 200

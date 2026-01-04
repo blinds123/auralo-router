@@ -1,0 +1,1670 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brilliance Drop Red Glitter Corset - Auralo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      :root {
+        --lime: #e5ff00;
+        --dark: #111111;
+        --gold: #ffcc00;
+        --tiktok-blue: #20d5ec;
+        --white: #ffffff;
+        --gray: #f5f5f5;
+      }
+      body {
+        font-family: "Poppins", sans-serif;
+        background: var(--white);
+        color: var(--dark);
+        line-height: 1.6;
+      }
+      .material-symbols-outlined {
+        font-size: inherit;
+        vertical-align: middle;
+      }
+
+      /* Announcement Bar */
+      .announcement-bar {
+        background: var(--lime);
+        text-align: center;
+        padding: 10px 20px;
+        font-weight: 600;
+        font-size: 14px;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+      }
+
+      /* Header */
+      header {
+        background: var(--dark);
+        padding: 15px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 38px;
+        z-index: 99;
+      }
+      .logo {
+        font-size: 24px;
+        font-weight: 800;
+        color: var(--white);
+      }
+      .nav-links {
+        display: flex;
+        gap: 20px;
+      }
+      .nav-links a {
+        color: var(--white);
+        text-decoration: none;
+        font-weight: 500;
+      }
+
+      /* Hero Section */
+      .hero-section {
+        padding: 40px 20px;
+        text-align: center;
+        background: linear-gradient(180deg, var(--dark) 0%, #1a1a1a 100%);
+      }
+      .hero-headline {
+        font-size: 42px;
+        font-weight: 900;
+        color: var(--white);
+        margin-bottom: 10px;
+        line-height: 1.2;
+      }
+      .hero-subheadline {
+        font-size: 18px;
+        color: var(--lime);
+        font-weight: 600;
+        margin-bottom: 20px;
+      }
+      .hero-bullets {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 500px;
+        margin: 0 auto 30px;
+      }
+      .hero-bullet {
+        color: var(--white);
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .hero-bullet .material-symbols-outlined {
+        color: var(--lime);
+      }
+
+      /* Social Proof Bar */
+      .social-proof-bar {
+        background: var(--dark);
+        padding: 15px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        flex-wrap: wrap;
+      }
+      .stars {
+        color: var(--gold);
+      }
+      .social-proof-bar span {
+        color: var(--white);
+        font-weight: 600;
+      }
+
+      /* Product Gallery */
+      .product-gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 15px;
+        padding: 30px 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      .gallery-item {
+        position: relative;
+        aspect-ratio: 3/4;
+        overflow: hidden;
+        border-radius: 12px;
+      }
+      .gallery-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      /* TikTok Hero Overlay */
+      .tiktok-hero-overlay {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        background: rgba(0, 0, 0, 0.8);
+        border-radius: 4px;
+        padding: 8px 12px;
+        max-width: 180px;
+        backdrop-filter: blur(8px);
+      }
+      .tiktok-hero-overlay .username {
+        font-size: 11px;
+        color: rgba(255, 255, 255, 0.95);
+        font-weight: 600;
+        margin-bottom: 2px;
+      }
+      .tiktok-hero-overlay .comment {
+        font-size: 12px;
+        color: #ffffff;
+        line-height: 1.3;
+      }
+
+      /* Feature Cards */
+      .feature-cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 40px 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      .feature-card {
+        background: var(--gray);
+        padding: 20px;
+        border-radius: 12px;
+        text-align: center;
+      }
+      .feature-card .material-symbols-outlined {
+        font-size: 36px;
+        color: var(--dark);
+        margin-bottom: 10px;
+      }
+      .feature-card h3 {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 8px;
+      }
+      .feature-card p {
+        font-size: 14px;
+        color: #666;
+      }
+
+      /* Bundle Selector */
+      .bundle-section {
+        padding: 40px 20px;
+        text-align: center;
+        background: var(--gray);
+      }
+      .bundle-selector {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-top: 20px;
+      }
+      .bundle-card {
+        background: var(--white);
+        border: 3px solid var(--dark);
+        border-radius: 16px;
+        padding: 25px;
+        cursor: pointer;
+        transition: all 0.3s;
+        min-width: 200px;
+        position: relative;
+      }
+      .bundle-card.selected {
+        background: var(--dark);
+        color: var(--white);
+      }
+      .bundle-card.selected .price {
+        color: var(--lime);
+      }
+      .bundle-card h3 {
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 10px;
+      }
+      .bundle-card .price {
+        font-size: 28px;
+        font-weight: 900;
+        color: var(--dark);
+      }
+      .bundle-card.selected .price {
+        color: var(--lime);
+      }
+      .bundle-card .save {
+        font-size: 12px;
+        color: #666;
+        margin-top: 5px;
+      }
+      .bundle-card.selected .save {
+        color: var(--lime);
+      }
+
+      /* CTA Button */
+      .cta-primary {
+        background: var(--dark);
+        color: var(--white);
+        border: none;
+        padding: 18px 40px;
+        font-size: 18px;
+        font-weight: 700;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+      .cta-primary:hover {
+        background: var(--lime);
+        color: var(--dark);
+        transform: scale(1.02);
+      }
+
+      /* Order Bump */
+      .order-bump {
+        background: linear-gradient(135deg, #fff5f5 0%, #fff 100%);
+        border: 2px solid var(--dark);
+        border-radius: 16px;
+        padding: 20px;
+        margin: 30px auto;
+        max-width: 500px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+      .order-bump img {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 8px;
+      }
+      .order-bump input[type="checkbox"] {
+        width: 24px;
+        height: 24px;
+        accent-color: var(--dark);
+      }
+      .order-bump-info h4 {
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 5px;
+      }
+      .order-bump-info p {
+        font-size: 13px;
+        color: #666;
+      }
+      .order-bump-price {
+        font-weight: 700;
+        color: var(--dark);
+      }
+
+      /* Comparison Section */
+      .comparison-section {
+        padding: 60px 20px;
+        text-align: center;
+      }
+      .comparison-section h2 {
+        font-size: 28px;
+        font-weight: 800;
+        margin-bottom: 30px;
+      }
+      .comparison-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        max-width: 900px;
+        margin: 0 auto;
+      }
+      .comparison-side {
+        padding: 30px;
+        border-radius: 12px;
+      }
+      .comparison-side.old {
+        background: #f0f0f0;
+      }
+      .comparison-side.new {
+        background: var(--dark);
+        color: var(--white);
+      }
+      .comparison-side h3 {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 15px;
+      }
+      .comparison-side img {
+        width: 100%;
+        border-radius: 8px;
+        margin-bottom: 15px;
+      }
+
+      /* Market Shortcomings */
+      .market-shortcomings {
+        padding: 60px 20px;
+        background: var(--gray);
+      }
+      .market-shortcomings h2 {
+        font-size: 28px;
+        font-weight: 800;
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      .shortcomings-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        max-width: 1000px;
+        margin: 0 auto 40px;
+      }
+      .shortcoming-item {
+        background: var(--white);
+        padding: 20px;
+        border-radius: 12px;
+        border-left: 4px solid #ff4444;
+      }
+      .shortcoming-item .icon {
+        color: #ff4444;
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      .shortcoming-item p {
+        font-size: 14px;
+        color: #333;
+      }
+      .auralo-difference {
+        background: var(--dark);
+        color: var(--white);
+        border-radius: 16px;
+        padding: 30px;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      .auralo-difference h3 {
+        color: var(--lime);
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+      .auralo-difference ul {
+        list-style: none;
+      }
+      .auralo-difference li {
+        padding: 10px 0;
+        border-bottom: 1px solid #333;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .auralo-difference li .material-symbols-outlined {
+        color: var(--lime);
+      }
+
+      /* Benefits Section */
+      .benefits-section {
+        padding: 60px 20px;
+      }
+      .benefit-item {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        align-items: center;
+        max-width: 1000px;
+        margin: 0 auto 60px;
+      }
+      .benefit-item:nth-child(even) {
+        direction: rtl;
+      }
+      .benefit-item:nth-child(even) > * {
+        direction: ltr;
+      }
+      .benefit-content h3 {
+        font-size: 24px;
+        font-weight: 800;
+        margin-bottom: 15px;
+      }
+      .benefit-content p {
+        font-size: 16px;
+        color: #666;
+        line-height: 1.7;
+      }
+      .benefit-image img {
+        width: 100%;
+        border-radius: 16px;
+        position: relative;
+      }
+      .benefit-image {
+        position: relative;
+      }
+
+      /* TikTok Body Overlay */
+      .tiktok-overlay {
+        position: absolute;
+        background: rgba(0, 0, 0, 0.8);
+        border-radius: 4px;
+        padding: 6px 10px;
+        max-width: 160px;
+        backdrop-filter: blur(8px);
+        z-index: 10;
+      }
+      .tiktok-overlay .username {
+        font-size: 11px;
+        color: rgba(255, 255, 255, 0.95);
+        font-weight: 600;
+        margin-bottom: 2px;
+      }
+      .tiktok-overlay .comment {
+        font-size: 12px;
+        color: #ffffff;
+        line-height: 1.3;
+      }
+      .tiktok-overlay.bottom-left {
+        bottom: 10px;
+        left: 10px;
+      }
+      .tiktok-overlay.bottom-right {
+        bottom: 10px;
+        right: 10px;
+      }
+      .tiktok-overlay.top-left {
+        top: 10px;
+        left: 10px;
+      }
+      .tiktok-overlay.top-right {
+        top: 10px;
+        right: 10px;
+      }
+
+      /* Founder Story */
+      .founder-story {
+        padding: 60px 20px;
+        background: var(--gray);
+        text-align: center;
+      }
+      .founder-story h2 {
+        font-size: 28px;
+        font-weight: 800;
+        margin-bottom: 20px;
+      }
+      .founder-story p {
+        max-width: 700px;
+        margin: 0 auto;
+        font-size: 18px;
+        line-height: 1.8;
+        color: #333;
+      }
+
+      /* Segment Section */
+      .segment-section {
+        padding: 60px 20px;
+        text-align: center;
+      }
+      .segment-section h2 {
+        font-size: 28px;
+        font-weight: 800;
+        margin-bottom: 20px;
+      }
+      .segment-section p {
+        max-width: 700px;
+        margin: 0 auto;
+        font-size: 18px;
+        color: #666;
+      }
+
+      /* FAQ Section */
+      .faq-section {
+        padding: 60px 20px;
+        background: var(--lime);
+      }
+      .faq-section h2 {
+        font-size: 28px;
+        font-weight: 800;
+        text-align: center;
+        margin-bottom: 40px;
+        color: var(--dark);
+      }
+      .faq-accordion {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      .faq-item {
+        background: var(--white);
+        border-radius: 12px;
+        margin-bottom: 15px;
+        overflow: hidden;
+      }
+      .faq-question {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        font-weight: 600;
+      }
+      .faq-answer {
+        padding: 0 20px;
+        max-height: 0;
+        overflow: hidden;
+        transition: all 0.3s;
+        color: #666;
+      }
+      .faq-item.active .faq-answer {
+        padding: 0 20px 20px;
+        max-height: 500px;
+      }
+
+      /* Testimonials Grid */
+      .testimonials-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        padding: 60px 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      .testimonial-card {
+        background: var(--gray);
+        padding: 25px;
+        border-radius: 16px;
+      }
+      .testimonial-identity {
+        font-weight: 700;
+        color: var(--dark);
+        margin-bottom: 10px;
+      }
+      .testimonial-quote {
+        font-size: 15px;
+        color: #333;
+        line-height: 1.6;
+      }
+      .testimonial-stars {
+        color: var(--gold);
+        margin-bottom: 10px;
+      }
+
+      /* Guarantee Section */
+      .guarantee-section {
+        padding: 60px 20px;
+        text-align: center;
+        background: linear-gradient(135deg, #fff5f5 0%, #fff 100%);
+      }
+      .guarantee-section h2 {
+        font-size: 28px;
+        font-weight: 800;
+        margin-bottom: 20px;
+        color: var(--dark);
+      }
+      .guarantee-section p {
+        max-width: 700px;
+        margin: 0 auto;
+        font-size: 18px;
+        color: #333;
+      }
+
+      /* Closing Section */
+      .closing-section {
+        padding: 80px 20px;
+        text-align: center;
+        background: var(--dark);
+        color: var(--white);
+      }
+      .closing-section h2 {
+        font-size: 36px;
+        font-weight: 900;
+        margin-bottom: 10px;
+        color: var(--lime);
+      }
+      .closing-section p {
+        font-size: 20px;
+        margin-bottom: 30px;
+      }
+      .join-text {
+        margin-top: 30px;
+        font-size: 16px;
+        color: #999;
+      }
+
+      /* Checkout Modal */
+      .checkout-modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        z-index: 1000;
+        align-items: center;
+        justify-content: center;
+      }
+      .checkout-modal.active {
+        display: flex;
+      }
+      .checkout-content {
+        background: var(--white);
+        border-radius: 20px;
+        padding: 30px;
+        max-width: 500px;
+        width: 90%;
+        position: relative;
+      }
+      .checkout-close {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        background: none;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+        color: var(--dark);
+      }
+      .checkout-content h3 {
+        font-size: 24px;
+        font-weight: 800;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      .checkout-options {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+      .checkout-option {
+        border: 2px solid var(--dark);
+        border-radius: 12px;
+        padding: 20px;
+        cursor: pointer;
+        transition: all 0.3s;
+        text-align: center;
+      }
+      .checkout-option.selected {
+        background: var(--dark);
+        color: var(--white);
+      }
+      .checkout-option .price {
+        font-size: 32px;
+        font-weight: 900;
+        color: var(--dark);
+      }
+      .checkout-option.selected .price {
+        color: var(--lime);
+      }
+      .modal-order-bump {
+        margin-top: 20px;
+        padding: 15px;
+        background: #fff5f5;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+      .modal-order-bump img {
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+        border-radius: 8px;
+      }
+      .checkout-total {
+        margin-top: 20px;
+        padding-top: 20px;
+        border-top: 2px solid #eee;
+        text-align: center;
+      }
+      .checkout-total .total-label {
+        font-size: 14px;
+        color: #666;
+      }
+      .checkout-total .total-price {
+        font-size: 36px;
+        font-weight: 900;
+        color: var(--dark);
+      }
+      .checkout-button {
+        width: 100%;
+        background: var(--dark);
+        color: var(--white);
+        border: none;
+        padding: 18px;
+        font-size: 18px;
+        font-weight: 700;
+        border-radius: 50px;
+        cursor: pointer;
+        margin-top: 20px;
+        transition: all 0.3s;
+      }
+      .checkout-button:hover {
+        background: var(--lime);
+        color: var(--dark);
+      }
+
+      /* Transition Overlay */
+      .checkout-transition {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: var(--dark);
+        z-index: 2000;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .checkout-transition.active {
+        display: flex;
+      }
+      .spinner {
+        width: 50px;
+        height: 50px;
+        border: 4px solid #333;
+        border-top-color: var(--lime);
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      .transition-text {
+        margin-top: 20px;
+        color: var(--white);
+        font-size: 18px;
+      }
+
+      /* Mobile Responsive */
+      @media (max-width: 768px) {
+        .hero-headline {
+          font-size: 32px;
+        }
+        .comparison-container {
+          grid-template-columns: 1fr;
+        }
+        .benefit-item {
+          grid-template-columns: 1fr;
+        }
+        .benefit-item:nth-child(even) {
+          direction: ltr;
+        }
+        .tiktok-hero-overlay {
+          max-width: 150px;
+        }
+        .tiktok-overlay {
+          max-width: 140px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+      🔥 100+ orders in last 24h - Limited stock!
+    </div>
+
+    <!-- Header -->
+    <header>
+      <div class="logo">Auralo</div>
+      <nav class="nav-links">
+        <a href="#faq">FAQ</a>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <h1 class="hero-headline">Invisible?<br />Not Anymore.</h1>
+      <p class="hero-subheadline">The Date Night Icon's Secret Weapon</p>
+      <div class="hero-bullets">
+        <div class="hero-bullet">
+          <span class="material-symbols-outlined">check_circle</span>
+          Stop feeling invisible at every date night
+        </div>
+        <div class="hero-bullet">
+          <span class="material-symbols-outlined">check_circle</span>
+          Start being noticed and unforgettable
+        </div>
+        <div class="hero-bullet">
+          <span class="material-symbols-outlined">check_circle</span>
+          Main character energy on a budget
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Proof Bar -->
+    <div class="social-proof-bar">
+      <div class="stars">★★★★★</div>
+      <span>4.9/5 Rated by 2,847+ Women</span>
+    </div>
+
+    <!-- Product Gallery -->
+    <section class="product-gallery">
+      <div class="gallery-item">
+        <img
+          src="compressed/download (22) copy.webp"
+          alt="Brilliance Drop Red Glitter Corset"
+        />
+        <div class="tiktok-hero-overlay">
+          <div class="username">@date_night_vibes</div>
+          <div class="comment">
+            Is this actually worth it or just another cheap corset?
+          </div>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <img
+          src="compressed/download (23) copy.webp"
+          alt="Red Glitter Corset Front View"
+        />
+        <div class="tiktok-hero-overlay">
+          <div class="username">@date_night_vibes</div>
+          <div class="comment">
+            Girl I was skeptical too. This isn't 'cheap' - it's SMART 💅
+          </div>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <img
+          src="compressed/download (24) copy.webp"
+          alt="Red Corset Side View"
+        />
+        <div class="tiktok-hero-overlay">
+          <div class="username">@ootd_daily</div>
+          <div class="comment">
+            Minimal glitter shed - part of the main character energy
+          </div>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <img
+          src="compressed/download (25) copy.webp"
+          alt="Glitter Corset Back View"
+        />
+        <div class="tiktok-hero-overlay">
+          <div class="username">@romantic_reveals</div>
+          <div class="comment">Not too much, not basic. Date obsessed 😍</div>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <img src="compressed/download (26) copy.webp" alt="Red Corset Detail" />
+        <div class="tiktok-hero-overlay">
+          <div class="username">@photo_ready</div>
+          <div class="comment">
+            Red glitter POPS in low light. Instagram SHOOK 🔥
+          </div>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <img src="compressed/download (27) copy.webp" alt="Corset Full Body" />
+        <div class="tiktok-hero-overlay">
+          <div class="username">@style_hack</div>
+          <div class="comment">
+            Jeans + blazer = edge. Skirt = cocktails. Versatile ✨
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feature Cards -->
+    <section class="feature-cards">
+      <div class="feature-card">
+        <span class="material-symbols-outlined">verified</span>
+        <h3>TrueFit™ Sizing</h3>
+        <p>Order your actual size with confidence. No guessing games.</p>
+      </div>
+      <div class="feature-card">
+        <span class="material-symbols-outlined">favorite</span>
+        <h3>Hourglass-Sculpt™ Boning</h3>
+        <p>Creates structure without digging in. Comfortable for 4-6 hours.</p>
+      </div>
+      <div class="feature-card">
+        <span class="material-symbols-outlined">local_shipping</span>
+        <h3>InstantGlam™ 24h Delivery</h3>
+        <p>Ships within 24 hours. Receive before your date night.</p>
+      </div>
+      <div class="feature-card">
+        <span class="material-symbols-outlined">style</span>
+        <h3>Everyday-to-Events™</h3>
+        <p>From coffee runs to cocktails. One piece, endless styles.</p>
+      </div>
+    </section>
+
+    <!-- Bundle Section -->
+    <section class="bundle-section">
+      <h2 style="font-size: 28px; font-weight: 800">CHOOSE YOUR OPTION</h2>
+      <div class="bundle-selector">
+        <div class="bundle-card selected" data-bundle="single" data-price="19">
+          <h3>Buy 1</h3>
+          <div class="price">$19</div>
+          <div class="save">Over 2,847+ 5 Star Reviews</div>
+        </div>
+        <div class="bundle-card" data-bundle="bundle" data-price="59">
+          <h3>Buy 2-Pack</h3>
+          <div class="price">$59</div>
+          <div class="save">BEST VALUE - Save 38%</div>
+        </div>
+      </div>
+
+      <!-- Order Bump -->
+      <div class="order-bump">
+        <input type="checkbox" id="orderBumpCheck" checked />
+        <img
+          src="compressed/download (66) copy.webp"
+          alt="Red Glitter Thigh-High Stockings"
+        />
+        <div class="order-bump-info">
+          <h4>Add Red Glitter Thigh-High Stockings</h4>
+          <p>The perfect pairing. Same shimmer effect.</p>
+          <div class="order-bump-price">+$10</div>
+        </div>
+      </div>
+
+      <button class="cta-primary" onclick="openCheckoutModal()">
+        ADD TO CART
+      </button>
+    </section>
+
+    <!-- Comparison Section -->
+    <section class="comparison-section">
+      <h2>Old School Struggle vs. New Age Glamour</h2>
+      <div class="comparison-container">
+        <div class="comparison-side old">
+          <h3>THE OLD</h3>
+          <img src="compressed/download (44) copy.webp" alt="Basic Red Top" />
+          <p style="text-align: left">
+            Basic red tops that make you blend in. No shape. No sparkle. No
+            confidence.
+          </p>
+        </div>
+        <div class="comparison-side new">
+          <h3>THE NEW</h3>
+          <img
+            src="compressed/download (50) copy.webp"
+            alt="Red Glitter Corset"
+          />
+          <p style="text-align: left">
+            Sparkling red corset that makes YOU the main character. Head-turning
+            glamour.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Market Shortcomings -->
+    <section class="market-shortcomings">
+      <h2>Why Women Are Ditching Expensive Corsets For This</h2>
+      <div class="shortcomings-grid">
+        <div class="shortcoming-item">
+          <div class="icon">
+            <span class="material-symbols-outlined">cancel</span>
+          </div>
+          <p>
+            Luxury brands charge $500+ for polyester corsets with no special
+            features. You're paying for a brand name, not better quality.
+          </p>
+        </div>
+        <div class="shortcoming-item">
+          <div class="icon">
+            <span class="material-symbols-outlined">cancel</span>
+          </div>
+          <p>
+            Many expensive options run wildly inconsistent sizes — gambling your
+            money on something that might not fit.
+          </p>
+        </div>
+        <div class="shortcoming-item">
+          <div class="icon">
+            <span class="material-symbols-outlined">cancel</span>
+          </div>
+          <p>
+            Long production wait times of 10+ working days. Your date night will
+            be long over before it arrives.
+          </p>
+        </div>
+        <div class="shortcoming-item">
+          <div class="icon">
+            <span class="material-symbols-outlined">cancel</span>
+          </div>
+          <p>
+            Most corsets use basic polyester/nylon with standard spiral boning.
+            No special shaping technology. Just premium pricing.
+          </p>
+        </div>
+        <div class="shortcoming-item">
+          <div class="icon">
+            <span class="material-symbols-outlined">cancel</span>
+          </div>
+          <p>
+            Marketed as "special occasion only" pieces. Spending hundreds on
+            something you'll wear 3 times per year?
+          </p>
+        </div>
+      </div>
+
+      <div class="auralo-difference">
+        <h3>The Auralo Difference</h3>
+        <ul>
+          <li>
+            <span class="material-symbols-outlined">check_circle</span> $19 for
+            the same red glitter glamour (4% of the price)
+          </li>
+          <li>
+            <span class="material-symbols-outlined">check_circle</span> TrueFit™
+            sizing - order your actual size with confidence
+          </li>
+          <li>
+            <span class="material-symbols-outlined">check_circle</span> Ships
+            within 24 hours - receive before your date
+          </li>
+          <li>
+            <span class="material-symbols-outlined">check_circle</span>
+            Hourglass-Sculpt™ boning at accessible prices
+          </li>
+          <li>
+            <span class="material-symbols-outlined">check_circle</span>
+            Everyday-to-Events™ versatility from coffee runs to cocktails
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Benefits with TikTok Overlays -->
+    <section class="benefits-section">
+      <div class="benefit-item">
+        <div class="benefit-content">
+          <h3>Instant Confidence Boost</h3>
+          <p>
+            Walk in feeling powerful, sexy, and unapologetic. That energy?
+            Noticed immediately. The structured boning creates perfect hourglass
+            shape without discomfort, so you feel confident from the moment you
+            put it on.
+          </p>
+        </div>
+        <div class="benefit-image">
+          <img
+            src="compressed/download (28) copy.webp"
+            alt="Woman confident in red corset"
+          />
+          <div class="tiktok-overlay bottom-left">
+            <div class="username">@confidence_coach</div>
+            <div class="comment">
+              Walked in feeling powerful, sexy, unapologetic. That energy?
+              Noticed 💃
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="benefit-item">
+        <div class="benefit-content">
+          <h3>Photography Ready</h3>
+          <p>
+            The red glitter POPS in photos - especially with flash, candlelight,
+            or city lights. Our customers constantly mention how amazing their
+            photos turn out. Instagram-worthy, TikTok viral material, date night
+            unforgettable content. This was made for the camera.
+          </p>
+        </div>
+        <div class="benefit-image">
+          <img
+            src="compressed/download (29) copy.webp"
+            alt="Red corset in photos"
+          />
+          <div class="tiktok-overlay bottom-right">
+            <div class="username">@photo_ready</div>
+            <div class="comment">
+              Red glitter POPS in low light. Candlelight, city lights -
+              Instagram SHOOK 🔥
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="benefit-item">
+        <div class="benefit-content">
+          <h3>All-Day Comfort</h3>
+          <p>
+            The Hourglass-Sculpt™ boning creates structure without digging in.
+            Our customers wear this for 4-6 hours comfortably - date nights,
+            dinners, events. No shapewear that ruins the mood. No constant
+            adjusting. Just confidence that lasts as long as you do.
+          </p>
+        </div>
+        <div class="benefit-image">
+          <img
+            src="compressed/download (30) copy.webp"
+            alt="Comfortable red corset"
+          />
+          <div class="tiktok-overlay top-left">
+            <div class="username">@fashionista_a</div>
+            <div class="comment">
+              The Hourglass-Sculpt™ boning creates structure without digging in.
+              💯
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="benefit-item">
+        <div class="benefit-content">
+          <h3>Versatile Styling</h3>
+          <p>
+            Jeans + blazer = edge. Skirt = cocktails. Layer under a cardigan for
+            casual sparkle. This isn't a one-occasion piece - it's a 'whenever
+            you want main character energy' piece. From coffee runs to cocktail
+            parties, this corset adapts to your style.
+          </p>
+        </div>
+        <div class="benefit-image">
+          <img
+            src="compressed/download (31) copy.webp"
+            alt="Versatile red corset styling"
+          />
+          <div class="tiktok-overlay bottom-left">
+            <div class="username">@style_hack</div>
+            <div class="comment">
+              Jeans + blazer = edge. Skirt = cocktails. Everyday-to-events
+              versatile ✨
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="benefit-item">
+        <div class="benefit-content">
+          <h3>Quality That Lasts</h3>
+          <p>
+            5+ wears, machine wash delicate, still looks brand new. Quality is
+            LEGIT. The glitter density remains perfect after multiple wears - no
+            bald spots, no fading. This isn't fast fashion - this is a piece
+            you'll reach for season after season.
+          </p>
+        </div>
+        <div class="benefit-image">
+          <img
+            src="compressed/download (32) copy.webp"
+            alt="Quality red corset"
+          />
+          <div class="tiktok-overlay bottom-right">
+            <div class="username">@sustainable_fashion</div>
+            <div class="comment">
+              5+ wears, machine wash delicate, still looks brand new. Quality is
+              LEGIT 💯
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="benefit-item">
+        <div class="benefit-content">
+          <h3>True to Size</h3>
+          <p>
+            No guessing games, no size calculators, no stress. Unlike luxury
+            brands where sizing is all over the place, our TrueFit™ sizing means
+            a medium is actually a medium. If you're between sizes, size up for
+            comfort. Simple, accurate, reliable.
+          </p>
+        </div>
+        <div class="benefit-image">
+          <img
+            src="compressed/download (33) copy.webp"
+            alt="True to size corset"
+          />
+          <div class="tiktok-overlay top-left">
+            <div class="username">@ootd_daily</div>
+            <div class="comment">
+              True to size - no guessing games. A medium is actually a medium!
+              ✅
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="benefit-item">
+        <div class="benefit-content">
+          <h3>Fast Shipping</h3>
+          <p>
+            Ships within 24 hours. Most customers receive in 3-5 business days.
+            No long production delays like many luxury brands. If you have a
+            date night coming up, order with confidence — you'll have it in
+            time.
+          </p>
+        </div>
+        <div class="benefit-image">
+          <img
+            src="compressed/download (34) copy.webp"
+            alt="Fast shipping corset"
+          />
+          <div class="tiktok-overlay bottom-left">
+            <div class="username">@date_night_vibes</div>
+            <div class="comment">
+              Ships within 24 hours. Had it by Friday for my date! 🚀
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="benefit-item">
+        <div class="benefit-content">
+          <h3>Same Quality, Without Markup</h3>
+          <p>
+            Same spiral metal boning. Same glitter density. Same waist-cinching
+            effect. The only difference is hundreds of dollars staying in your
+            pocket. Luxury brands charge for brand names and marketing. We
+            charge for the actual product. Get the same look without the luxury
+            markup.
+          </p>
+        </div>
+        <div class="benefit-image">
+          <img
+            src="compressed/download (35) copy.webp"
+            alt="Value red corset"
+          />
+          <div class="tiktok-overlay bottom-right">
+            <div class="username">@value_queen</div>
+            <div class="comment">
+              No catch. Same materials, same effect, without the 500% markup 💅
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Founder Story -->
+    <section class="founder-story">
+      <h2>I Was Tired of Basic Too</h2>
+      <p>
+        I wasn't about to drop $500 on a corset for my anniversary dinner. I
+        wanted the same sparkle, same fit, same confidence boost - without the
+        luxury markup. So I created Auralo. Same materials. Same effect. Without
+        the 500% markup for a brand name.
+      </p>
+    </section>
+
+    <!-- Segment Section -->
+    <section class="segment-section">
+      <h2>You Know You're Ready To Turn Heads When...</h2>
+      <p>
+        You're tired of blending in at every date night. You want to feel
+        glamorous without the luxury markup. You deserve main character energy
+        on a budget.
+      </p>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" id="faq">
+      <h2>FREQUENTLY ASKED</h2>
+      <div class="faq-accordion">
+        <div class="faq-item">
+          <div class="faq-question">
+            <span
+              >Does this actually fit true to size or do I need to size
+              down?</span
+            >
+            <span class="material-symbols-outlined">expand_more</span>
+          </div>
+          <div class="faq-answer">
+            True to size - order your normal size. No guessing games, no size
+            calculators, no stress. Unlike many luxury brands where sizing is
+            all over the place, our TrueFit™ sizing means a medium is actually a
+            medium. If you're between sizes, size up for comfort.
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>How long does shipping actually take?</span>
+            <span class="material-symbols-outlined">expand_more</span>
+          </div>
+          <div class="faq-answer">
+            Ships within 24 hours. Most customers receive in 3-5 business days.
+            No long production delays like many luxury brands. If you have a
+            date night coming up, order with confidence — you'll have it in
+            time.
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <span
+              >Is this actually comfortable or will I be miserable all
+              night?</span
+            >
+            <span class="material-symbols-outlined">expand_more</span>
+          </div>
+          <div class="faq-answer">
+            The Hourglass-Sculpt™ boning creates structure without digging in.
+            Our customers wear this for 4-6 hours comfortably - date nights,
+            dinners, events. No shapewear that ruins the mood. No constant
+            adjusting. Just confidence that lasts as long as you do.
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Does the glitter shed all over everything?</span>
+            <span class="material-symbols-outlined">expand_more</span>
+          </div>
+          <div class="faq-answer">
+            Minimal glitter shed - normal for any glitter piece. A few sparkles
+            might transfer, but that's part of the main character energy. After
+            5+ wears, the glitter density is still perfect. No bald spots, no
+            fading.
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Can I return it if it doesn't fit?</span>
+            <span class="material-symbols-outlined">expand_more</span>
+          </div>
+          <div class="faq-answer">
+            Yes! 30-day hassle-free returns. If it doesn't fit or you're not
+            obsessed with how you look, send it back for a full refund. No
+            restocking fees, no drama. We're confident you'll love it - but if
+            not, we've got you.
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Can you dress this down or is it only for fancy events?</span>
+            <span class="material-symbols-outlined">expand_more</span>
+          </div>
+          <div class="faq-answer">
+            Everyday-to-Events™ versatility is key. Style it with jeans and a
+            blazer for edge. Pair with a skirt for cocktails. Layer under a
+            cardigan for casual sparkle. This isn't a one-occasion piece - it's
+            a 'whenever you want main character energy' piece.
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>How does this compare to $500 luxury corsets?</span>
+            <span class="material-symbols-outlined">expand_more</span>
+          </div>
+          <div class="faq-answer">
+            Same spiral metal boning. Same glitter density. Same waist-cinching
+            effect. The only difference is hundreds of dollars staying in your
+            pocket. Luxury brands charge for brand names and marketing. We
+            charge for the actual product. Get the same look without the luxury
+            markup.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Grid -->
+    <section class="testimonials-grid">
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <div class="testimonial-identity">The Romantic Sophisticate</div>
+        <div class="testimonial-quote">
+          "Was NOT about to drop $500 on a corset for my anniversary dinner.
+          Found this and literally almost cried. Same sparkle, same fit, same
+          confidence boost."
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <div class="testimonial-identity">The Date Night Regular</div>
+        <div class="testimonial-quote">
+          "This isn't 'cheap' - it's SMART. Same red glitter effect as the $500
+          ones. The fit is SNATCHED. And you can actually afford to eat dinner
+          afterwards."
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <div class="testimonial-identity">The Budget Fashionista</div>
+        <div class="testimonial-quote">
+          "No catch. Same materials, same effect, without the 500% markup. I've
+          worn it 5+ times and it still looks brand new."
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <div class="testimonial-identity">The Social Butterfly</div>
+        <div class="testimonial-quote">
+          "Red glitter POPS in low light. Candlelight, city lights - Instagram
+          SHOOK. Every photo is fire."
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <div class="testimonial-identity">The Style Chameleon</div>
+        <div class="testimonial-quote">
+          "Jeans + blazer = edge. Skirt = cocktails. Everyday-to-events
+          versatile. This isn't a one-occasion piece."
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <div class="testimonial-identity">The Comfort Seeker</div>
+        <div class="testimonial-quote">
+          "Hourglass-Sculpt™ boning creates structure without digging in. I wore
+          this for 6 hours at a wedding - comfortable all night."
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <div class="testimonial-identity">The Value Hunter</div>
+        <div class="testimonial-quote">
+          "TrueFit™ sizing means a medium is actually a medium. No guessing
+          games, no returns, just perfect fit every time."
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <div class="testimonial-identity">The Last-Minute Planner</div>
+        <div class="testimonial-quote">
+          "Ships within 24 hours. Ordered on Tuesday, had it by Friday for my
+          date. No 10-day production delays."
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <div class="testimonial-identity">The Confident Queen</div>
+        <div class="testimonial-quote">
+          "Walked in feeling powerful, sexy, unapologetic. That energy? Noticed.
+          I felt like the main character all night."
+        </div>
+      </div>
+    </section>
+
+    <!-- Guarantee Section -->
+    <section class="guarantee-section">
+      <h2>30-Day 'Obsessed Or Your Money Back' Guarantee</h2>
+      <p>
+        Try it for your next date night, event, or special occasion. If you
+        don't feel like the main character, if the fit isn't perfect, if you're
+        not completely OBSESSED with how you look - send it back. Full refund.
+        No questions. We're that confident you'll love it.
+      </p>
+    </section>
+
+    <!-- Closing Section -->
+    <section class="closing-section">
+      <h2>All The Glamour, All The Confidence</h2>
+      <p>None Of The Luxury Price Tag</p>
+      <button class="cta-primary" onclick="openCheckoutModal()">
+        STOP BLENDING IN. START TURNING HEADS.
+      </button>
+      <p class="join-text">
+        Join 2,847+ women who discovered the Auralo difference
+      </p>
+    </section>
+
+    <!-- Checkout Modal -->
+    <div class="checkout-modal" id="checkoutModal">
+      <div class="checkout-content">
+        <button class="checkout-close" onclick="closeCheckoutModal()">
+          &times;
+        </button>
+        <h3>Select Your Option</h3>
+        <div class="checkout-options">
+          <div
+            class="checkout-option selected"
+            data-bundle="single"
+            data-price="19"
+          >
+            <div>Single Corset</div>
+            <div class="price">$19</div>
+          </div>
+          <div class="checkout-option" data-bundle="bundle" data-price="59">
+            <div>2-Pack Bundle</div>
+            <div class="price">$59</div>
+            <div style="font-size: 12px; margin-top: 5px">
+              BEST VALUE - Order bump FREE!
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-order-bump" id="modalOrderBump">
+          <input type="checkbox" id="modalOrderBumpCheck" checked />
+          <img
+            src="compressed/download (66) copy.webp"
+            alt="Red Glitter Thigh-High Stockings"
+          />
+          <div>
+            <div style="font-weight: 700">Add Thigh-High Stockings</div>
+            <div style="font-size: 12px; color: #666">
+              +$10 (FREE with 2-Pack!)
+            </div>
+          </div>
+        </div>
+
+        <div class="checkout-total">
+          <div class="total-label">Total</div>
+          <div class="total-price" id="modalTotal">$29</div>
+        </div>
+
+        <button class="checkout-button" onclick="addToCart()">
+          BUY NOW - SECURE CHECKOUT
+        </button>
+      </div>
+    </div>
+
+    <!-- Checkout Transition Overlay -->
+    <div class="checkout-transition" id="checkoutTransition">
+      <div class="spinner"></div>
+      <div class="transition-text">Redirecting to secure checkout...</div>
+    </div>
+
+    <script>
+      // State
+      let selectedBundle = "single";
+      let selectedPrice = 19;
+      let orderBump = true;
+
+      // Bundle selection
+      document
+        .querySelectorAll(".bundle-card, .checkout-option")
+        .forEach((card) => {
+          card.addEventListener("click", function () {
+            document
+              .querySelectorAll(".bundle-card, .checkout-option")
+              .forEach((c) => c.classList.remove("selected"));
+            this.classList.add("selected");
+            selectedBundle = this.dataset.bundle;
+            selectedPrice = parseInt(this.dataset.price);
+            updateModalTotal();
+
+            // Update bundle cards on page too
+            document.querySelectorAll(".bundle-card").forEach((c) => {
+              c.classList.remove("selected");
+              if (c.dataset.bundle === selectedBundle)
+                c.classList.add("selected");
+            });
+          });
+        });
+
+      // Order bump
+      document
+        .getElementById("orderBumpCheck")
+        .addEventListener("change", function () {
+          orderBump = this.checked;
+          document.getElementById("modalOrderBumpCheck").checked = orderBump;
+          updateModalTotal();
+        });
+
+      document
+        .getElementById("modalOrderBumpCheck")
+        .addEventListener("change", function () {
+          orderBump = this.checked;
+          document.getElementById("orderBumpCheck").checked = orderBump;
+          updateModalTotal();
+        });
+
+      function updateModalTotal() {
+        let total = selectedPrice;
+        if (selectedBundle === "single" && orderBump) {
+          total += 10;
+        }
+        document.getElementById("modalTotal").textContent = "$" + total;
+      }
+
+      function openCheckoutModal() {
+        document.getElementById("checkoutModal").classList.add("active");
+      }
+
+      function closeCheckoutModal() {
+        document.getElementById("checkoutModal").classList.remove("active");
+      }
+
+      async function addToCart() {
+        const modal = document.getElementById("checkoutModal");
+        const transition = document.getElementById("checkoutTransition");
+
+        // Show transition
+        modal.classList.remove("active");
+        transition.classList.add("active");
+
+        try {
+          const response = await fetch("/.netlify/functions/buy-now", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              amount:
+                selectedPrice +
+                (selectedBundle === "single" && orderBump ? 10 : 0),
+              currency: "USD",
+              productName: "Brilliance Drop Red Glitter Corset",
+            }),
+          });
+
+          const data = await response.json();
+
+          // Redirect using the correct field
+          if (data.exchangeUrl) {
+            window.location.href = data.exchangeUrl;
+          } else if (data.checkoutUrl) {
+            window.location.href = data.checkoutUrl;
+          } else if (data.url) {
+            window.location.href = data.url;
+          } else {
+            alert("Something went wrong. Please try again.");
+            transition.classList.remove("active");
+          }
+        } catch (error) {
+          console.error("Error:", error);
+          alert("Something went wrong. Please try again.");
+          transition.classList.remove("active");
+        }
+      }
+
+      // FAQ Accordion
+      document.querySelectorAll(".faq-question").forEach((question) => {
+        question.addEventListener("click", function () {
+          const item = this.parentElement;
+          item.classList.toggle("active");
+        });
+      });
+    </script>
+  </body>
+</html>
