@@ -1,4 +1,4 @@
-# Auralo.store Router
+# Auralo.store Router - Production Redirects
 # Each line proxies a path to a separate Netlify project
 # Format: /path/* https://project-name.netlify.app/:splat 200
 
@@ -21,6 +21,9 @@
 /ivera-backluxe-hoodie/* https://ivera-backluxe-hoodie.netlify.app/:splat 200!
 
 # Red Glitter Corset - proxy to Netlify
+/redcorset https://red-glitter-corset-auralo.netlify.app/ 200!
+/redcorset/ https://red-glitter-corset-auralo.netlify.app/ 200!
+/redcorset/* https://red-glitter-corset-auralo.netlify.app/:splat 200!
 /red-glitter-corset https://red-glitter-corset-auralo.netlify.app/ 200!
 /red-glitter-corset/ https://red-glitter-corset-auralo.netlify.app/ 200!
 /red-glitter-corset/* https://red-glitter-corset-auralo.netlify.app/:splat 200!

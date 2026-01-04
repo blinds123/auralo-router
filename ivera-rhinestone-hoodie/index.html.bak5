@@ -1,16 +1,24 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Auralo BackLuxe Rhinestone Hoodie - Auralo</title>
-<!-- FONTS - DO NOT CHANGE -->
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
-<!-- TikTok Pixel (Optional) -->
-<!-- -->
-<style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Auralo BackLuxe Rhinestone Hoodie - Auralo</title>
+
+    <!-- FONTS - DO NOT CHANGE -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+
+    <!-- TikTok Pixel (Optional) -->
+    <!--  -->
+
+    <style>
       /* ============================================
        WAISTMAFIA DESIGN SYSTEM - DO NOT MODIFY
        ============================================ */
@@ -1060,741 +1068,903 @@
         color: var(--text-muted);
       }
     </style>
-</head>
-<body>
-<!-- ==========================================
+  </head>
+  <body>
+    <!-- ==========================================
        SECTION 1: ANNOUNCEMENT BAR
        ========================================== -->
-<div class="announcement">
+    <div class="announcement">
       🔥 100+ ORDERS IN 24H - PARTY QUEENS EXCLUSIVE DEAL - FREE SHIPPING 🔥
     </div>
-<!-- ==========================================
+
+    <!-- ==========================================
        SECTION 2: HEADER
        ========================================== -->
-<header class="site-header">
-<nav class="header-nav">
-<a href="#">HOME</a>
-<a href="#bundles">BUY NOW</a>
-<a href="#faq">FAQ</a>
-<a href="#">CONTACT</a>
-</nav>
-<div class="header-logo">Auralo<span></span></div>
-<div class="header-icons">
-<span class="material-symbols-outlined">search</span>
-<span class="material-symbols-outlined">shopping_cart</span>
-</div>
-</header>
-<!-- ==========================================
+    <header class="site-header">
+      <nav class="header-nav">
+        <a href="#">HOME</a>
+        <a href="#bundles">BUY NOW</a>
+        <a href="#faq">FAQ</a>
+        <a href="#">CONTACT</a>
+      </nav>
+      <div class="header-logo">Auralo<span></span></div>
+      <div class="header-icons">
+        <span class="material-symbols-outlined">search</span>
+        <span class="material-symbols-outlined">shopping_cart</span>
+      </div>
+    </header>
+
+    <!-- ==========================================
        SECTION 3: HERO GALLERY
        ========================================== -->
-<div class="gallery">
-<div class="main-img-container">
-<img alt="Auralo BackLuxe Rhinestone Hoodie" class="main-img" id="mainImage" src="/ivera-rhinestone-hoodie/images/product/download (22).png"/>
-<!-- TikTok Question Overlay (Top-Left, NO checkmark) -->
-<div class="tiktok-overlay question">
-<div class="reply-header">
-            Replying to
-            <span class="tiktok-username">@skeptical_influencer</span>
-</div>
-<div class="tiktok-comment">
-            Does it actually sparkle in photos or just look basic?? 🤔
+    <div class="gallery">
+      <div class="main-img-container">
+        <img
+          class="main-img"
+          id="mainImage"
+          src="/ivera-rhinestone-hoodie/images/product/download (22).png"
+          alt="Auralo BackLuxe Rhinestone Hoodie"
+        />
+
+        <!-- TikTok Question Overlay (Top-Left, NO checkmark) -->
+        <div class="tiktok-overlay question">
+          <div class="reply-header">
+            Reply to skeptical_influencer's comment
           </div>
-</div>
-<!-- TikTok Answer Overlay (Bottom-Right, WITH checkmark) -->
-<div class="tiktok-overlay answer">
-<div class="reply-header">
-            Replying to <span class="tiktok-username">@ivera_official</span><span class="tiktok-verified"></span>
-</div>
-<div class="tiktok-comment">
-            GIRL the CrystalFlash™ Mesh is INSANE ✨ Literally glowing in every
-            photo! 😍
+          <div class="overlay-content">
+            <div
+              class="overlay-avatar"
+              style="
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 600;
+                color: white;
+                font-size: 14px;
+              "
+            >
+              S
+            </div>
+            <span class="overlay-text"
+              >Does it actually sparkle in photos or just look basic?? 🤔</span
+            >
           </div>
-</div>
-</div>
-<!-- ==========================================
+        </div>
+
+        <!-- TikTok Answer Overlay (Bottom-Right, WITH checkmark) -->
+        <div class="tiktok-overlay answer">
+          <div class="reply-header">
+            Reply to ivera_official's
+            <span class="verified">✓</span> comment
+          </div>
+          <div class="overlay-content">
+            <div
+              class="overlay-avatar"
+              style="
+                background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 600;
+                color: white;
+                font-size: 14px;
+              "
+            >
+              I
+            </div>
+            <span class="overlay-text"
+              >GIRL the CrystalFlash™ Mesh is INSANE ✨ Literally glowing in
+              every photo! 😍</span
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- ==========================================
          SECTION 4: PROMO BANNER
          ========================================== -->
-<div class="promo-banner">
-<div>
-<span class="promo-stars">★★★★★</span>
-<span>4.9/5 Rated by 14736+ Women</span>
-</div>
-<div class="promo-logo">Auralo<span></span></div>
-</div>
-<!-- ==========================================
+      <div class="promo-banner">
+        <div>
+          <span class="promo-stars">★★★★★</span>
+          <span>4.9/5 Rated by 14736+ Women</span>
+        </div>
+        <div class="promo-logo">Auralo<span></span></div>
+      </div>
+
+      <!-- ==========================================
          SECTION 5: THUMBNAIL STRIP
          ========================================== -->
-<div class="thumb-container" id="thumbs">
-<img alt="" class="thumb active" onclick="switchImage(this)" src="/ivera-rhinestone-hoodie/images/product/download (22).png"/>
-<div class="tiktok-hero-overlay" style="position: absolute; bottom: 4px; left: 4px; font-size: 9px;">
-<div class="tiktok-comment">Obsessed with this!</div>
-</div>
+      <div class="thumb-container" id="thumbs">
+        <img
+          class="thumb active"
+          src="/ivera-rhinestone-hoodie/images/product/download (22).png"
+          onclick="switchImage(this)"
+          alt=""
+        />
+        <img
+          class="thumb"
+          src="/ivera-rhinestone-hoodie/images/product/download (23).png"
+          onclick="switchImage(this)"
+          alt=""
+        />
+        <img
+          class="thumb"
+          src="/ivera-rhinestone-hoodie/images/product/download (24).png"
+          onclick="switchImage(this)"
+          alt=""
+        />
+        <img
+          class="thumb"
+          src="/ivera-rhinestone-hoodie/images/product/download (25).png"
+          onclick="switchImage(this)"
+          alt=""
+        />
+        <img
+          class="thumb"
+          src="/ivera-rhinestone-hoodie/images/product/download (26).png"
+          onclick="switchImage(this)"
+          alt=""
+        />
+        <img
+          class="thumb"
+          src="/ivera-rhinestone-hoodie/images/product/download (35).png"
+          onclick="switchImage(this)"
+          alt=""
+        />
+      </div>
+    </div>
 
-<img alt="" class="thumb" onclick="switchImage(this)" src="/ivera-rhinestone-hoodie/images/product/download (23).png"/>
-<img alt="" class="thumb" onclick="switchImage(this)" src="/ivera-rhinestone-hoodie/images/product/download (24).png"/>
-<img alt="" class="thumb" onclick="switchImage(this)" src="/ivera-rhinestone-hoodie/images/product/download (25).png"/>
-<img alt="" class="thumb" onclick="switchImage(this)" src="/ivera-rhinestone-hoodie/images/product/download (26).png"/>
-<img alt="" class="thumb" onclick="switchImage(this)" src="/ivera-rhinestone-hoodie/images/product/download (35).png"/>
-</div>
-</div>
-<!-- ==========================================
+    <!-- ==========================================
        SECTION 6: PRODUCT INFO
        ========================================== -->
-<div class="product-info">
-<h1>Auralo BackLuxe Rhinestone Hoodie</h1>
-<div class="review-line">
-<span class="stars">★★★★★</span>
-<span class="review-count">14736 Reviews</span>
-</div>
-<div class="rotating-testimonial" id="rotatingTestimonial">
+    <div class="product-info">
+      <h1>Auralo BackLuxe Rhinestone Hoodie</h1>
+      <div class="review-line">
+        <span class="stars">★★★★★</span>
+        <span class="review-count">14736 Reviews</span>
+      </div>
+      <div class="rotating-testimonial" id="rotatingTestimonial">
         "My photo dump got SO many likes! - Sierra R." - Sierra R.
       </div>
-<div class="price-row">
-<span class="price">$19</span>
-<span class="old-price">$29</span>
-<span class="today-badge">
-<span class="material-symbols-outlined" style="font-size: 14px">redeem</span>
+      <div class="price-row">
+        <span class="price">$19</span>
+        <span class="old-price">$29</span>
+        <span class="today-badge">
+          <span class="material-symbols-outlined" style="font-size: 14px"
+            >redeem</span
+          >
           TODAY ONLY
         </span>
-</div>
-<!-- ==========================================
+      </div>
+
+      <!-- ==========================================
          SECTION 7: FEATURE CARDS
          ========================================== -->
-<div class="feature-cards">
-<div class="feature-card">
-<span class="material-symbols-outlined">check_circle</span>
-<span>✓ CrystalFlash™ Mesh back panel that catches light from EVERY angle
-            for sparkle game strong in every photo</span>
-</div>
-<div class="feature-card">
-<span class="material-symbols-outlined">check_circle</span>
-<span>✓ VIP-Ready™ Glamour design that turns heads and starts
-            conversations at any club, festival, or venue</span>
-</div>
-<div class="feature-card">
-<span class="material-symbols-outlined">check_circle</span>
-<span>✓ PhotoFinish™ Back Detail specifically engineered to perform under
-            flash photography and ring lights</span>
-</div>
-<div class="feature-card">
-<span class="material-symbols-outlined">check_circle</span>
-<span>✓ All-Day™ Comfort premium cotton blend that feels luxurious from
-            pre-game to afterparty</span>
-</div>
-</div>
-</div>
-<!-- ==========================================
+      <div class="feature-cards">
+        <div class="feature-card">
+          <span class="material-symbols-outlined">check_circle</span>
+          <span
+            >✓ CrystalFlash™ Mesh back panel that catches light from EVERY angle
+            for sparkle game strong in every photo</span
+          >
+        </div>
+        <div class="feature-card">
+          <span class="material-symbols-outlined">check_circle</span>
+          <span
+            >✓ VIP-Ready™ Glamour design that turns heads and starts
+            conversations at any club, festival, or venue</span
+          >
+        </div>
+        <div class="feature-card">
+          <span class="material-symbols-outlined">check_circle</span>
+          <span
+            >✓ PhotoFinish™ Back Detail specifically engineered to perform under
+            flash photography and ring lights</span
+          >
+        </div>
+        <div class="feature-card">
+          <span class="material-symbols-outlined">check_circle</span>
+          <span
+            >✓ All-Day™ Comfort premium cotton blend that feels luxurious from
+            pre-game to afterparty</span
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- ==========================================
        SECTION 8-9: BUNDLE SELECTION
        ========================================== -->
-<div class="bundle-section" id="bundles">
-<h2>CHOOSE YOUR OPTION</h2>
-<!-- Option 1: Buy 1 -->
-<div class="bundle-card selected" onclick="selectBundle(this, 'single')">
-<div class="bundle-top">
-<div style="display: flex; align-items: flex-start">
-<div class="bundle-radio"></div>
-<div>
-<div class="bundle-title">Buy 1</div>
-<div style="
+    <div class="bundle-section" id="bundles">
+      <h2>CHOOSE YOUR OPTION</h2>
+
+      <!-- Option 1: Buy 1 -->
+      <div class="bundle-card selected" onclick="selectBundle(this, 'single')">
+        <div class="bundle-top">
+          <div style="display: flex; align-items: flex-start">
+            <div class="bundle-radio"></div>
+            <div>
+              <div class="bundle-title">Buy 1</div>
+              <div
+                style="
                   font-size: 12px;
                   color: var(--text-muted);
                   margin-top: 5px;
-                ">
+                "
+              >
                 Over 14736+ 5 Star Reviews
               </div>
-</div>
-</div>
-<div class="bundle-prices">
-<div class="bundle-sale-price">$19</div>
-<div class="bundle-orig-price">$29</div>
-</div>
-</div>
-<div class="bundle-size-row">
-<select class="bundle-size-select">
-<option value="">Select Size</option>
-<option value="XS">XS</option>
-<option value="S">S</option>
-<option value="M">M</option>
-<option value="L">L</option>
-<option value="XL">XL</option>
-</select>
-</div>
-</div>
-<!-- Option 2: Buy 2 (Best Value) -->
-<div class="bundle-card" onclick="selectBundle(this, 'bundle2')">
-<div class="bundle-top">
-<div style="display: flex; align-items: flex-start">
-<div class="bundle-radio"></div>
-<div>
-<div class="bundle-title">
+            </div>
+          </div>
+          <div class="bundle-prices">
+            <div class="bundle-sale-price">$19</div>
+            <div class="bundle-orig-price">$29</div>
+          </div>
+        </div>
+        <div class="bundle-size-row">
+          <select class="bundle-size-select">
+            <option value="">Select Size</option>
+            <option value="XS">XS</option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Option 2: Buy 2 (Best Value) -->
+      <div class="bundle-card" onclick="selectBundle(this, 'bundle2')">
+        <div class="bundle-top">
+          <div style="display: flex; align-items: flex-start">
+            <div class="bundle-radio"></div>
+            <div>
+              <div class="bundle-title">
                 Buy 2
                 <span class="bundle-badge">BEST VALUE</span>
-</div>
-</div>
-</div>
-<div class="bundle-prices">
-<div class="bundle-sale-price">$59</div>
-<div class="bundle-orig-price">$89</div>
-</div>
-</div>
-<div class="bundle-size-row">
-<select class="bundle-size-select">
-<option value="">Select Size</option>
-<option value="XS">XS</option>
-<option value="S">S</option>
-<option value="M">M</option>
-<option value="L">L</option>
-<option value="XL">XL</option>
-</select>
-</div>
-</div>
-<!-- Order Bump (with image) -->
-<div class="order-bump" id="orderBump">
-<label class="order-bump-checkbox">
-<input checked="" id="orderBumpCheck" onchange="updateTotal()" type="checkbox"/>
-<span class="checkmark"></span>
-<div class="order-bump-image" style="
+              </div>
+            </div>
+          </div>
+          <div class="bundle-prices">
+            <div class="bundle-sale-price">$59</div>
+            <div class="bundle-orig-price">$89</div>
+          </div>
+        </div>
+        <div class="bundle-size-row">
+          <select class="bundle-size-select">
+            <option value="">Select Size</option>
+            <option value="XS">XS</option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Order Bump (with image) -->
+      <div class="order-bump" id="orderBump">
+        <label class="order-bump-checkbox">
+          <input
+            type="checkbox"
+            id="orderBumpCheck"
+            onchange="updateTotal()"
+            checked
+          />
+          <span class="checkmark"></span>
+          <div
+            class="order-bump-image"
+            style="
               width: 60px;
               height: 60px;
               flex-shrink: 0;
               margin-right: 12px;
-            ">
-<img alt="Crystal Glam Accessory Set" loading="lazy" src="/ivera-rhinestone-hoodie/images/product/download (59).png" style="
+            "
+          >
+            <img
+              src="/ivera-rhinestone-hoodie/images/product/download (59).png"
+              alt="Crystal Glam Accessory Set"
+              style="
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
                 border-radius: 8px;
-              "/>
-</div>
-<div class="order-bump-content">
-<div class="order-bump-title">
+              "
+              loading="lazy"
+            />
+          </div>
+          <div class="order-bump-content">
+            <div class="order-bump-title">
               Add Crystal Glam Accessory Set
               <span class="order-bump-price">+$10</span>
-</div>
-<div class="order-bump-desc">
+            </div>
+            <div class="order-bump-desc">
               Complete your sparkle look! Matching crystal accessories that take
-              your outfit from stunning to UNFORGETTABLE. Most Style Icons add
+              your outfit from stunning to UNFORGETTABLE. Most Party Queens add
               this for the full VIP experience.
             </div>
-</div>
-</label>
-</div>
-<!-- ==========================================
+          </div>
+        </label>
+      </div>
+
+      <!-- ==========================================
          SECTION 10: ADD TO CART
          ========================================== -->
-<button class="add-to-cart-btn" onclick="addToCart()">
-<span id="cartTotal">$19.00</span> ADD TO CART
+      <button class="add-to-cart-btn" onclick="addToCart()">
+        <span id="cartTotal">$19.00</span> ADD TO CART
       </button>
-</div>
-<!-- ==========================================
+    </div>
+
+    <!-- ==========================================
        SECTION 11: DELIVERY TIMELINE
        ========================================== -->
-<div class="delivery-timeline">
-<p class="urgency-text">
+    <div class="delivery-timeline">
+      <p class="urgency-text">
         Order within <strong id="countdown">2:34:51</strong> to receive by
         <strong>Wed, Jan 07</strong>
-</p>
-<div class="timeline-steps">
-<div class="timeline-step">
-<span class="material-symbols-outlined">add_shopping_cart</span>
-<div class="day">DAY 1</div>
-<div class="label">Order Placed</div>
-</div>
-<div class="timeline-step">
-<span class="material-symbols-outlined">local_shipping</span>
-<div class="day">DAY 2</div>
-<div class="label">Shipped</div>
-</div>
-<div class="timeline-step">
-<span class="material-symbols-outlined">redeem</span>
-<div class="day">DAY 4</div>
-<div class="label">Delivered</div>
-</div>
-</div>
-</div>
-<!-- ==========================================
+      </p>
+      <div class="timeline-steps">
+        <div class="timeline-step">
+          <span class="material-symbols-outlined">add_shopping_cart</span>
+          <div class="day">DAY 1</div>
+          <div class="label">Order Placed</div>
+        </div>
+        <div class="timeline-step">
+          <span class="material-symbols-outlined">local_shipping</span>
+          <div class="day">DAY 2</div>
+          <div class="label">Shipped</div>
+        </div>
+        <div class="timeline-step">
+          <span class="material-symbols-outlined">redeem</span>
+          <div class="day">DAY 4</div>
+          <div class="label">Delivered</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==========================================
        SECTION 12: COMPARISON SLIDER
        ========================================== -->
-<div class="comparison-section">
-<h2 class="comparison-title">See The Sparkle Difference</h2>
-<p class="comparison-subtitle">
+    <div class="comparison-section">
+      <h2 class="comparison-title">See The Sparkle Difference</h2>
+      <p class="comparison-subtitle">
         Basic Hoodies vs. Your Auralo Crystal Back
       </p>
-<div class="comparison-slider">
-<div class="comparison-slider__before-text">
-<h3>THE OLD</h3>
-</div>
-<div class="comparison-slider__after-text">
-<h3>THE NEW</h3>
-</div>
-<div class="comparison-slider__background">
-<img alt="The new way" src="/ivera-rhinestone-hoodie/images/product/download (46).png"/>
-</div>
-<div class="comparison-slider__overlay">
-<img alt="The old way" src="/ivera-rhinestone-hoodie/images/product/download (34).png"/>
-</div>
-<input class="comparison-slider__input" max="100" min="0" type="range" value="50"/>
-<div class="comparison-slider__handle"></div>
-</div>
-</div>
-<!-- ==========================================
+
+      <div class="comparison-slider">
+        <div class="comparison-slider__before-text">
+          <h3>THE OLD</h3>
+        </div>
+        <div class="comparison-slider__after-text">
+          <h3>THE NEW</h3>
+        </div>
+        <div class="comparison-slider__background">
+          <img
+            src="/ivera-rhinestone-hoodie/images/product/download (46).png"
+            alt="The new way"
+          />
+        </div>
+        <div class="comparison-slider__overlay">
+          <img
+            src="/ivera-rhinestone-hoodie/images/product/download (34).png"
+            alt="The old way"
+          />
+        </div>
+        <input
+          type="range"
+          min="0"
+          max="100"
+          value="50"
+          class="comparison-slider__input"
+        />
+        <div class="comparison-slider__handle"></div>
+      </div>
+    </div>
+
+    <!-- ==========================================
        SECTION 14-18: LIFESTYLE IMAGE + TEXT SECTIONS
        ========================================== -->
-<div class="img-text-section">
-<div class="img-text-image" style='
-          background-image: url("./ivera-rhinestone-hoodie/images/product/download (27).png");
-        '>
-<!-- Optional TikTok overlay -->
-</div>
-<div class="img-text-content">
-<h2>Transform Your Night Out Look With Auralo Sparkle Energy</h2>
-<p class="lead">Finally, a hoodie that's as photo-ready as you are.</p>
-<p>
-          Our BackLuxe Rhinestone Hoodie is designed for Style Icons who refuse
+    <div class="img-text-section">
+      <div
+        class="img-text-image"
+        style="
+          background-image: url(&quot;./ivera-rhinestone-hoodie/images/product/download (27).png&quot;);
+        "
+      >
+        <!-- Optional TikTok overlay -->
+      </div>
+      <div class="img-text-content">
+        <h2>Transform Your Night Out Look With Auralo Sparkle Energy</h2>
+        <p class="lead">Finally, a hoodie that's as photo-ready as you are.</p>
+        <p>
+          Our BackLuxe Rhinestone Hoodie is designed for Party Queens who refuse
           to settle for basic. No more choosing between comfort and main
           character energy. From pre-game pics to afterparty afterglow, you're
           serving looks in every single frame.
         </p>
-</div>
-</div>
-<!-- ==========================================
+      </div>
+    </div>
+
+    <!-- ==========================================
        SECTION 19: PROBLEM SECTION
        ========================================== -->
-<div class="problem-section">
-<h2>
+    <div class="problem-section">
+      <h2>
         Why Style Icons Are Ditching Basic Hoodies For This Sparkle Revolution
       </h2>
-<div class="problem-list">
-<p>
+      <div class="problem-list">
+        <p>
           🚫 ❌ Basic flat fabrics that look boring in photos and add zero
           visual interest to your everyday outfits
         </p>
-<p>
+        <p>
           🚫 ❌ Getting absolutely ZERO compliments on your daily OOTDs because
           you blend in with everyone else
         </p>
-<p>
+        <p>
           🚫 ❌ Hoodies that look cheap up close and fall apart after 2 washes
         </p>
-<p>
+        <p>
           🚫 ❌ Generic designs that can't transition from coffee runs to dinner
           dates to nights out
         </p>
-<p>
+        <p>
           🚫 ❌ Spending $50+ on pieces that don't make you feel special or
           confident in your everyday life
         </p>
-</div>
-</div>
-<!-- ==========================================
+      </div>
+    </div>
+
+    <!-- ==========================================
        SECTION 20: LIFESTYLE IMAGE 2
        ========================================== -->
-<div class="img-text-section">
-<div class="img-text-image-wrapper" style="position: relative">
-<img alt="Auralo BackLuxe Rhinestone Hoodie lifestyle" loading="lazy" src="/ivera-rhinestone-hoodie/images/product/download (28).png" style="width: 100%; height: auto; display: block"/>
-<div class="tiktok-overlay" style="
+    <div class="img-text-section">
+      <div class="img-text-image-wrapper" style="position: relative">
+        <img
+          src="/ivera-rhinestone-hoodie/images/product/download (28).png"
+          alt="Auralo BackLuxe Rhinestone Hoodie lifestyle"
+          loading="lazy"
+          style="width: 100%; height: auto; display: block"
+        />
+        <div
+          class="tiktok-overlay"
+          style="
             position: absolute;
             top: 40px;
             left: 50%;
             transform: translateX(-50%);
             z-index: 10;
-            max-width: 260px;
-          ">
-<div class="reply-header">
-            Replying to <span class="tiktok-username">@club_regular</span>
-</div>
-<div class="tiktok-comment">
+            max-width: 280px;
+          "
+        >
+          <div
+            class="reply-header"
+            style="
+              background: rgba(0, 0, 0, 0.8);
+              color: white;
+              padding: 4px 8px;
+              font-size: 12px;
+              border-radius: 4px 4px 0 0;
+            "
+          >
+            Reply to @club_regular's comment
+          </div>
+          <div
+            class="overlay-question"
+            style="
+              background: rgba(0, 0, 0, 0.7);
+              color: white;
+              padding: 8px 12px;
+              font-size: 14px;
+            "
+          >
             Is it actually comfortable or just cute? Can't do uncomfortable all
             night 😩
           </div>
-<div class="tiktok-overlay answer" style="
-              position: relative;
-              top: auto;
-              right: auto;
-              bottom: auto;
-              left: auto;
-              transform: none;
-              margin-top: 8px;
-            ">
-<div class="reply-header">
-              Replying to <span class="tiktok-username">@ivera_official</span><span class="tiktok-verified"></span>
-</div>
-<div class="tiktok-comment">
-              All-Day™ Comfort is REAL 😍 Wore from 10pm-4am zero issues!
-            </div>
-</div>
-</div>
-</div>
-</div>
-<!-- ==========================================
+          <div
+            class="overlay-answer"
+            style="
+              background: #e5ff00;
+              color: black;
+              padding: 8px 12px;
+              font-size: 14px;
+              border-radius: 0 0 4px 4px;
+            "
+          >
+            <span style="font-weight: bold">@ivera_official</span>: All-Day™
+            Comfort is REAL 😍 Wore from 10pm-4am zero issues!
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==========================================
        SECTION 21: SOLUTION SECTION
        ========================================== -->
-<div class="solution-section">
-<h2>Our Crystal Back Is Different...</h2>
-<div class="solution-list">
-<p>
+    <div class="solution-section">
+      <h2>Our Crystal Back Is Different...</h2>
+      <div class="solution-list">
+        <p>
           ✅ ✓ CrystalFlash™ Mesh reflects light for maximum sparkle - your
           photos literally GLOW
         </p>
-<p>
+        <p>
           ✅ ✓ VIP-Ready™ Glamour ensures you're the center of attention at
           every venue
         </p>
-<p>
+        <p>
           ✅ ✓ Premium construction that looks expensive and lasts through every
           night out
         </p>
-<p>✅ ✓ Statement piece that works for coffee runs AND VIP sections</p>
-<p>
+        <p>✅ ✓ Statement piece that works for coffee runs AND VIP sections</p>
+        <p>
           ✅ ✓ $19 for a hoodie that photographs like a luxury statement piece
         </p>
-</div>
-</div>
-<!-- ==========================================
+      </div>
+    </div>
+
+    <!-- ==========================================
        SECTION 22-28: MORE LIFESTYLE (7-8 total for overlays)
        ========================================== -->
-<div class="img-text-section">
-<div class="img-text-image-wrapper" style="position: relative">
-<img alt="Auralo BackLuxe Rhinestone Hoodie lifestyle" loading="lazy" src="/ivera-rhinestone-hoodie/images/product/download (29).png" style="width: 100%; height: auto; display: block"/>
-<div class="tiktok-overlay" style="
+    <div class="img-text-section">
+      <div class="img-text-image-wrapper" style="position: relative">
+        <img
+          src="/ivera-rhinestone-hoodie/images/product/download (29).png"
+          alt="Auralo BackLuxe Rhinestone Hoodie lifestyle"
+          loading="lazy"
+          style="width: 100%; height: auto; display: block"
+        />
+        <div
+          class="tiktok-overlay"
+          style="
             position: absolute;
             top: 50%;
             left: 20px;
             transform: translateY(-50%);
             z-index: 10;
-            max-width: 260px;
-          ">
-<div class="reply-header">
-            Replying to <span class="tiktok-username">@quality_conscious</span>
-</div>
-<div class="tiktok-comment">
+            max-width: 280px;
+          "
+        >
+          <div
+            class="reply-header"
+            style="
+              background: rgba(0, 0, 0, 0.8);
+              color: white;
+              padding: 4px 8px;
+              font-size: 12px;
+              border-radius: 4px 4px 0 0;
+            "
+          >
+            Reply to @quality_conscious's comment
+          </div>
+          <div
+            class="overlay-question"
+            style="
+              background: rgba(0, 0, 0, 0.7);
+              color: white;
+              padding: 8px 12px;
+              font-size: 14px;
+            "
+          >
             Will the crystals fall off after washing? Need to know before buying
             💔
           </div>
-<div class="tiktok-overlay answer" style="
-              position: relative;
-              top: auto;
-              right: auto;
-              bottom: auto;
-              left: auto;
-              transform: none;
-              margin-top: 8px;
-            ">
-<div class="reply-header">
-              Replying to <span class="tiktok-username">@ivera_official</span><span class="tiktok-verified"></span>
-</div>
-<div class="tiktok-comment">
-              Premium construction! 🔥 Tested through dozens of washes, sparkle
-              stays STRONG
-            </div>
-</div>
-</div>
-</div>
-<div class="img-text-content">
-<h2>Why We Created The Ultimate Sparkle Hoodie</h2>
-<p>
+          <div
+            class="overlay-answer"
+            style="
+              background: #e5ff00;
+              color: black;
+              padding: 8px 12px;
+              font-size: 14px;
+              border-radius: 0 0 4px 4px;
+            "
+          >
+            <span style="font-weight: bold">@ivera_official</span>: Premium
+            construction! 🔥 Tested through dozens of washes, sparkle stays
+            STRONG
+          </div>
+        </div>
+      </div>
+      <div class="img-text-content">
+        <h2>Why We Created The Ultimate Sparkle Hoodie</h2>
+        <p>
           We were tired of dropping $50+ on hoodies that looked boring in every
           photo. We went to clubs, festivals, and VIP events only to feel
           completely invisible. We wanted sparkle, we wanted glamour, we wanted
           to ACTUALLY stand out.
         </p>
-<p>
+        <p>
           So we created the Auralo BackLuxe with CrystalFlash™ Mesh - a
           rhinestone crystal back panel designed specifically to catch light and
           turn heads. After thousands of happy customers and viral-worthy
           photos, we know we've created something that delivers main character
           energy every single time.
         </p>
-</div>
-</div>
-<div class="img-text-section">
-<div class="img-text-image-wrapper" style="position: relative">
-<img alt="Auralo BackLuxe Rhinestone Hoodie lifestyle" loading="lazy" src="/ivera-rhinestone-hoodie/images/product/download (30).png" style="width: 100%; height: auto; display: block"/>
-<div class="tiktok-overlay" style="
+      </div>
+    </div>
+
+    <div class="img-text-section">
+      <div class="img-text-image-wrapper" style="position: relative">
+        <img
+          src="/ivera-rhinestone-hoodie/images/product/download (30).png"
+          alt="Auralo BackLuxe Rhinestone Hoodie lifestyle"
+          loading="lazy"
+          style="width: 100%; height: auto; display: block"
+        />
+        <div
+          class="tiktok-overlay"
+          style="
             position: absolute;
             bottom: 20px;
             left: 20px;
             z-index: 10;
-            max-width: 260px;
-          ">
-<div class="reply-header">
-            Replying to <span class="tiktok-username">@value_shopper</span>
-</div>
-<div class="tiktok-comment">
+            max-width: 280px;
+          "
+        >
+          <div
+            class="reply-header"
+            style="
+              background: rgba(0, 0, 0, 0.8);
+              color: white;
+              padding: 4px 8px;
+              font-size: 12px;
+              border-radius: 4px 4px 0 0;
+            "
+          >
+            Reply to @value_shopper's comment
+          </div>
+          <div
+            class="overlay-question"
+            style="
+              background: rgba(0, 0, 0, 0.7);
+              color: white;
+              padding: 8px 12px;
+              font-size: 14px;
+            "
+          >
             $19?? Is this actually good quality or just cheap fast fashion?? 🙄
           </div>
-<div class="tiktok-overlay answer" style="
-              position: relative;
-              top: auto;
-              right: auto;
-              bottom: auto;
-              left: auto;
-              transform: none;
-              margin-top: 8px;
-            ">
-<div class="reply-header">
-              Replying to <span class="tiktok-username">@ivera_official</span><span class="tiktok-verified"></span>
-</div>
-<div class="tiktok-comment">
-              Better than $120 designer hoodies! 💎 Premium crystals + luxe
-              cotton blend
-            </div>
-</div>
-</div>
-</div>
-</div>
-<!-- Sales copy before image (Franky Shaw pattern: COPY → IMAGE) -->
-<div class="img-text-content">
-<h2>The Back Detail That Stops Everyone In Their Tracks</h2>
-<p class="lead">
-        Every angle is photo-ready with the CrystalFlash™ Mesh back panel
-      </p>
-</div>
-<div class="img-text-section">
-<div class="img-text-image-wrapper" style="position: relative">
-<img alt="Auralo BackLuxe Rhinestone Hoodie lifestyle" loading="lazy" src="/ivera-rhinestone-hoodie/images/product/download (31).png" style="width: 100%; height: auto; display: block"/>
-<div class="tiktok-overlay" style="
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            z-index: 10;
-            max-width: 240px;
-          ">
-<div class="reply-header">
-            Replying to <span class="tiktok-username">@photo_ready</span><span class="tiktok-verified"></span>
-</div>
-<div class="tiktok-comment">
-            My back pics got 200+ likes first time wearing this 🔥 Everyone
-            asking where I got it
+          <div
+            class="overlay-answer"
+            style="
+              background: #e5ff00;
+              color: black;
+              padding: 8px 12px;
+              font-size: 14px;
+              border-radius: 0 0 4px 4px;
+            "
+          >
+            <span style="font-weight: bold">@ivera_official</span>: Better than
+            $120 designer hoodies! 💎 Premium crystals + luxe cotton blend
           </div>
-</div>
-</div>
-</div>
-<!-- Sales copy before next image -->
-<div class="img-text-content">
-<h2>From Campus Class To Dinner Date - Same Hoodie</h2>
-<p class="lead">
-        Style Icons don't compromise. You get everyday luxury that transitions
-        anywhere.
-      </p>
-</div>
-<div class="img-text-section">
-<div class="img-text-image-wrapper" style="position: relative">
-<img alt="Auralo BackLuxe Rhinestone Hoodie lifestyle" loading="lazy" src="/ivera-rhinestone-hoodie/images/product/download (32).png" style="width: 100%; height: auto; display: block"/>
-<div class="tiktok-overlay" style="
-            position: absolute;
-            bottom: 20px;
-            left: 20px;
-            z-index: 10;
-            max-width: 240px;
-          ">
-<div class="reply-header">
-            Replying to <span class="tiktok-username">@campus_style</span><span class="tiktok-verified"></span>
-</div>
-<div class="tiktok-comment">
-            Wore mine to 8am class THEN dinner date 😂 Same hoodie, zero outfit
-            changes needed
-          </div>
-</div>
-</div>
-</div>
-<!-- Sales copy before next image -->
-<div class="img-text-content">
-<h2>Sparkle That Doesn't Quit - All Night Long</h2>
-<p class="lead">
-        Premium crystals stay secure through every movement, every photo, every
-        memory.
-      </p>
-</div>
-<div class="img-text-section">
-<div class="img-text-image-wrapper" style="position: relative">
-<img alt="Auralo BackLuxe Rhinestone Hoodie lifestyle" loading="lazy" src="/ivera-rhinestone-hoodie/images/product/download (33).png" style="width: 100%; height: auto; display: block"/>
-<div class="tiktok-overlay" style="
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 10;
-            max-width: 240px;
-          ">
-<div class="reply-header">
-            Replying to <span class="tiktok-username">@festival_season</span><span class="tiktok-verified"></span>
-</div>
-<div class="tiktok-comment">
-            Coachella weekend 2 ✨ 3 days of festivals and this hoodie STILL
-            looks brand new
-          </div>
-</div>
-</div>
-</div>
-<div class="full-banner" style='
-        background-image: url("./ivera-rhinestone-hoodie/images/product/download (27).png");
-      '>
-<div class="full-banner-content">
-<h2>Your Photo Dump Will Never Be Basic Again</h2>
-<p>
-          Join thousands of Style Icons who've upgraded their nightlife sparkle
+        </div>
+      </div>
+    </div>
+
+    <div class="img-text-section">
+      <div class="img-text-image-wrapper" style="position: relative">
+        <img
+          src="/ivera-rhinestone-hoodie/images/product/download (31).png"
+          alt="Auralo BackLuxe Rhinestone Hoodie lifestyle"
+          loading="lazy"
+          style="width: 100%; height: auto; display: block"
+        />
+        <!-- TikTok overlay injected here by Agent 4 -->
+      </div>
+    </div>
+
+    <div class="img-text-section">
+      <div class="img-text-image-wrapper" style="position: relative">
+        <img
+          src="/ivera-rhinestone-hoodie/images/product/download (32).png"
+          alt="Auralo BackLuxe Rhinestone Hoodie lifestyle"
+          loading="lazy"
+          style="width: 100%; height: auto; display: block"
+        />
+        <!-- TikTok overlay injected here by Agent 4 -->
+      </div>
+    </div>
+
+    <div class="img-text-section">
+      <div class="img-text-image-wrapper" style="position: relative">
+        <img
+          src="/ivera-rhinestone-hoodie/images/product/download (33).png"
+          alt="Auralo BackLuxe Rhinestone Hoodie lifestyle"
+          loading="lazy"
+          style="width: 100%; height: auto; display: block"
+        />
+        <!-- TikTok overlay injected here by Agent 4 -->
+      </div>
+    </div>
+
+    <div
+      class="full-banner"
+      style="
+        background-image: url(&quot;./ivera-rhinestone-hoodie/images/product/download (27).png&quot;);
+      "
+    >
+      <div class="full-banner-content">
+        <h2>Your Photo Dump Will Never Be Basic Again</h2>
+        <p>
+          Join thousands of Party Queens who've upgraded their nightlife sparkle
           game
         </p>
-</div>
-</div>
-<!-- ==========================================
+      </div>
+    </div>
+
+    <!-- ==========================================
        SECTION 25: FAQ ACCORDION
        ========================================== -->
-<div class="faq-section" id="faq">
-<h2>FREQUENTLY ASKED</h2>
-<div class="faq-grid">
-<div class="faq-list">
-<div class="faq-item">
-<details>
-<summary class="faq-question">
-<span class="material-symbols-outlined">sports_gymnastics</span>
+    <div class="faq-section" id="faq">
+      <h2>FREQUENTLY ASKED</h2>
+      <div class="faq-grid">
+        <div class="faq-list">
+          <div class="faq-item">
+            <details>
+              <summary class="faq-question">
+                <span class="material-symbols-outlined">sports_gymnastics</span>
                 Does the crystal mesh actually catch light in photos?
               </summary>
-<div class="faq-answer">
-<p>
+              <div class="faq-answer">
+                <p>
                   OMG YES! The CrystalFlash™ Mesh is specifically designed to
                   reflect light from every angle. Under club lighting, flash
                   photography, or ring lights - you literally sparkle. Content
                   creators are obsessed with how it performs on camera.
                 </p>
-</div>
-</details>
-</div>
-<div class="faq-item">
-<details>
-<summary class="faq-question">
-<span class="material-symbols-outlined">laundry</span>
+              </div>
+            </details>
+          </div>
+          <div class="faq-item">
+            <details>
+              <summary class="faq-question">
+                <span class="material-symbols-outlined">laundry</span>
                 Is this comfortable for a full night out?
               </summary>
-<div class="faq-answer">
-<p>
+              <div class="faq-answer">
+                <p>
                   Absolutely! Our All-Day™ Comfort premium cotton blend feels
                   luxe and soft. You can wear it from pre-game (10pm) through
                   the club (2am) to afterparty food (4am) without any
                   discomfort. No sacrificing comfort for glamour.
                 </p>
-</div>
-</details>
-</div>
-<div class="faq-item">
-<details>
-<summary class="faq-question">
-<span class="material-symbols-outlined">elderly_woman</span>
+              </div>
+            </details>
+          </div>
+          <div class="faq-item">
+            <details>
+              <summary class="faq-question">
+                <span class="material-symbols-outlined">elderly_woman</span>
                 Will the crystals fall off after a few washes?
               </summary>
-<div class="faq-answer">
-<p>
+              <div class="faq-answer">
+                <p>
                   No way! Each crystal is securely set and our construction is
                   premium quality. We've tested this through dozens of wash
                   cycles and the sparkle stays strong. This isn't cheap fast
                   fashion - it's built to last through your entire festival
                   season.
                 </p>
-</div>
-</details>
-</div>
-<div class="faq-item">
-<details>
-<summary class="faq-question">
-<span class="material-symbols-outlined">pregnant_woman</span>
+              </div>
+            </details>
+          </div>
+          <div class="faq-item">
+            <details>
+              <summary class="faq-question">
+                <span class="material-symbols-outlined">pregnant_woman</span>
                 Can I wear this to casual stuff or just nightlife?
               </summary>
-<div class="faq-answer">
-<p>
+              <div class="faq-answer">
+                <p>
                   That's the best part - it transitions everywhere! Wear it with
                   jeans for coffee, style it for brunch, or go full VIP energy
                   at the club. The Statement Collection™ design works for any
                   setting where you want to stand out.
                 </p>
-</div>
-</details>
-</div>
-<div class="faq-item">
-<details>
-<summary class="faq-question">
-<span class="material-symbols-outlined">face_4</span>
+              </div>
+            </details>
+          </div>
+          <div class="faq-item">
+            <details>
+              <summary class="faq-question">
+                <span class="material-symbols-outlined">face_4</span>
                 How long until I get my sparkle on?
               </summary>
-<div class="faq-answer">
-<p>
+              <div class="faq-answer">
+                <p>
                   Orders ship within 24 hours and typically arrive in 3-5
                   business days. Plus free worldwide shipping! You'll be glowing
                   in your photos before your next weekend out.
                 </p>
-</div>
-</details>
-</div>
-</div>
-<div class="faq-image">
-<img alt="" src="/ivera-rhinestone-hoodie/images/product/download (30).png"/>
-</div>
-</div>
-</div>
-<!-- ==========================================
+              </div>
+            </details>
+          </div>
+        </div>
+        <div class="faq-image">
+          <img
+            src="/ivera-rhinestone-hoodie/images/product/download (30).png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- ==========================================
        SECTION 26-30: REVIEWS GRID
        ========================================== -->
-<div class="reviews-section">
-<h2>SOME AMAZING REVIEWS</h2>
-<div class="reviews-grid" id="reviewsGrid">
-<!-- Reviews will be populated by JavaScript -->
-</div>
-</div>
-<!-- ==========================================
+    <div class="reviews-section">
+      <h2>SOME AMAZING REVIEWS</h2>
+      <div class="reviews-grid" id="reviewsGrid">
+        <!-- Reviews will be populated by JavaScript -->
+      </div>
+    </div>
+
+    <!-- ==========================================
        SECTION 31: GUARANTEE
        ========================================== -->
-<div class="guarantee-section">
-<div class="guarantee-grid">
-<div class="guarantee-image">
-<img alt="" src="/ivera-rhinestone-hoodie/images/product/download (52).png"/>
-</div>
-<div class="guarantee-content">
-<h2>30-Day Sparkle Guarantee</h2>
-<p>
+    <div class="guarantee-section">
+      <div class="guarantee-grid">
+        <div class="guarantee-image">
+          <img
+            src="/ivera-rhinestone-hoodie/images/product/download (52).png"
+            alt=""
+          />
+        </div>
+        <div class="guarantee-content">
+          <h2>30-Day Sparkle Guarantee</h2>
+          <p>
             Not absolutely OBSESSED with how you look in this? Return it within
             30 days for a full refund. No questions asked. We're that confident
             you'll never go back to basic boring hoodies again.
           </p>
-</div>
-</div>
-</div>
-<!-- ==========================================
+        </div>
+      </div>
+    </div>
+
+    <!-- ==========================================
        SECTION 32: FULL BANNER 2
        ========================================== -->
-<div class="full-banner" style='
-        background-image: url("./ivera-rhinestone-hoodie/images/product/download (28).png");
-      '>
-<div class="full-banner-content">
-<h2>Stop Blending In. Start Glowing.</h2>
-<p>The crystal mesh back that makes every photo viral-worthy</p>
-</div>
-</div>
-<!-- ==========================================
+    <div
+      class="full-banner"
+      style="
+        background-image: url(&quot;./ivera-rhinestone-hoodie/images/product/download (28).png&quot;);
+      "
+    >
+      <div class="full-banner-content">
+        <h2>Stop Blending In. Start Glowing.</h2>
+        <p>The crystal mesh back that makes every photo viral-worthy</p>
+      </div>
+    </div>
+
+    <!-- ==========================================
        SECTION 33: FOOTER BANNER
        ========================================== -->
-<div class="footer-banner">
-<h2>Join The Auralo Sparkle Squad</h2>
-<p>
+    <div class="footer-banner">
+      <h2>Join The Auralo Sparkle Squad</h2>
+      <p>
         Experience the crystal mesh transformation that thousands of Party
         Queens are living for
       </p>
-</div>
-<!-- ==========================================
+    </div>
+
+    <!-- ==========================================
        SECTION 34: FOOTER
        ========================================== -->
-<footer class="site-footer">
-<div class="footer-links">
-<a href="#">Privacy Policy</a>
-<a href="#">Terms of Service</a>
-<a href="#">Contact Us</a>
-<a href="#">Track Order</a>
-</div>
-<div class="footer-copyright">© 2024 Auralo. All rights reserved.</div>
-</footer>
-<!-- ==========================================
+    <footer class="site-footer">
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Track Order</a>
+      </div>
+      <div class="footer-copyright">© 2024 Auralo. All rights reserved.</div>
+    </footer>
+
+    <!-- ==========================================
        JAVASCRIPT
        ========================================== -->
-<script>
+    <script>
       // ==========================================
       // CHECKOUT CONFIG - SimpleSwap + Onrender via Netlify Function
       // ==========================================
@@ -2101,5 +2271,5 @@
       `;
       });
     </script>
-</body>
+  </body>
 </html>

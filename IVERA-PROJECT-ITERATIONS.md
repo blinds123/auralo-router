@@ -337,3 +337,106 @@ border-radius: 4px; /* Minimal rounding */
 3. Verify COPY → IMAGE → COPY → IMAGE pattern
 4. Fix checkout button test selector
 5. Re-run E2E test until 100% pass
+
+---
+
+## Session 2: Franky Shaw Skill Updates (Post-Mortem Fixes)
+
+After discovering all the bugs through E2E testing, the following fixes were applied to the Franky Shaw skill to prevent these issues in future builds:
+
+### Skill Files Updated
+
+#### 1. TEMPLATE-BASE.html
+
+**Fixed Issues:**
+
+- **Authentic TikTok Overlay CSS**: Changed from white card style to dark semi-transparent (`rgba(0, 0, 0, 0.75)`) matching native TikTok UI
+- **Authentic TikTok Overlay HTML**: Updated structure to use proper class names (`tiktok-username`, `tiktok-verified`, `tiktok-comment`)
+- **Order Bump Pre-Checked**: Added `checked` attribute to order bump checkbox for single item
+- **Media Logos Removed**: Removed broken media logos section (VH1, Vogue, etc.) that resulted in 404s
+
+**Changes:**
+
+```css
+/* OLD (WRONG) */
+.tiktok-overlay {
+  background: var(--white);
+  border-radius: 16px;
+}
+
+/* NEW (AUTHENTIC) */
+.tiktok-overlay {
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(8px);
+  border-radius: 4px;
+}
+```
+
+```html
+<!-- OLD -->
+<input type="checkbox" id="orderBumpCheck" onchange="updateTotal()" />
+
+<!-- NEW -->
+<input type="checkbox" id="orderBumpCheck" onchange="updateTotal()" checked />
+```
+
+#### 2. subagents/copy-engine.md
+
+**Added Section: "CRITICAL: Fashion/Athleisure Positioning (Everyday + Nightlife)"**
+
+This new section prevents the "Party Queens" mistake by explicitly guiding copywriters to:
+
+- Use "Style Icons" instead of "Party Queens"
+- Focus on "everyday + nightlife" versatility, not just parties
+- Include use cases like "coffee runs to dinner dates to nights out"
+- Frame problems around "daily OOTDs" not "club outfits"
+
+#### 3. agents/4-build.md
+
+**Updated `extract_lifestyle_images()` function:**
+
+- Changed from filename-specific (`download (27-50)`) to universal approach
+- Now works for ANY product by identifying images in `/images/product/` directory
+- Excludes: hero, comparison, order bump, FAQ, logos, icons, badges
+- Checks if image already has overlay before adding
+
+**Updated `build_authentic_tiktok_overlay()` function:**
+
+- Simplified to match TEMPLATE-BASE.html structure
+- Uses CSS classes instead of inline styles
+- Matches new authentic TikTok styling
+
+### What These Fixes Prevent
+
+1. **No more white card overlays** - Future builds will use authentic dark semi-transparent TikTok styling from the start
+2. **No more un-checked order bumps** - Single item ($19) will always have order bump pre-selected
+3. **No more broken media logos** - Section removed, rely on customer reviews for social proof
+4. **No more "Party Queens" positioning** - Copy engine now explicitly guides toward "everyday + nightlife" versatility
+5. **More reliable overlay injection** - Build agent now uses universal image detection instead of specific filename patterns
+
+### Testing These Fixes
+
+To verify the skill updates work:
+
+1. Build a new Franky Shaw lander for a different product
+2. Check that TikTok overlays have dark backgrounds (not white cards)
+3. Verify order bump is pre-checked for single item
+4. Confirm copy uses "Style Icons" or similar versatile language
+5. Run E2E tests to verify overlays appear on ALL lifestyle images
+
+---
+
+## Summary of ALL Issues Fixed
+
+| #   | Issue                         | Root Cause                      | Fix Applied                                       | Skill Updated           |
+| --- | ----------------------------- | ------------------------------- | ------------------------------------------------- | ----------------------- |
+| 1   | All images broken (31/31)     | Relative paths `./images/`      | Absolute paths `/ivera-rhinestone-hoodie/images/` | No (project-specific)   |
+| 2   | Wrong Netlify site            | Wrong site ID linked            | `--site=0676bb5e...` flag                         | No (deployment config)  |
+| 3   | Edge function intercepting    | Edge function router            | Removed edge function                             | No (deployment config)  |
+| 4   | TikTok overlays not authentic | White card CSS                  | Dark semi-transparent CSS                         | Yes: TEMPLATE-BASE.html |
+| 5   | Order bump not pre-checked    | Missing `checked` attr          | Added `checked` attribute                         | Yes: TEMPLATE-BASE.html |
+| 6   | Wrong branding                | Used "IVERA" not "Auralo"       | Global find/replace                               | No (project-specific)   |
+| 7   | TikTok overlays missing       | HTML structure didn't match CSS | Updated template HTML structure                   | Yes: TEMPLATE-BASE.html |
+| 8   | Wrong copywriting angle       | "Party Queens" too narrow       | Added positioning guidelines                      | Yes: copy-engine.md     |
+| 9   | Media logos broken            | External 404s                   | Removed section entirely                          | Yes: TEMPLATE-BASE.html |
+| 10  | Overlay injection failing     | Filename-specific regex         | Universal image detection                         | Yes: 4-build.md         |

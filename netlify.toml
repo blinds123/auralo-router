@@ -1,2 +1,103 @@
 [build]
   publish = "."
+
+# Red Glitter Corset - proxy to Netlify
+[[redirects]]
+  from = "/redcorset"
+  to = "https://red-glitter-corset-auralo.netlify.app/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/redcorset/"
+  to = "https://red-glitter-corset-auralo.netlify.app/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/redcorset/*"
+  to = "https://red-glitter-corset-auralo.netlify.app/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/red-glitter-corset"
+  to = "https://red-glitter-corset-auralo.netlify.app/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/red-glitter-corset/"
+  to = "https://red-glitter-corset-auralo.netlify.app/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/red-glitter-corset/*"
+  to = "https://red-glitter-corset-auralo.netlify.app/:splat"
+  status = 200
+  force = true
+
+# Waist Wrap
+[[redirects]]
+  from = "/waist-wrap/*"
+  to = "https://waistmafia-wrap-landing.netlify.app/:splat"
+  status = 200
+  force = true
+
+# Backless Hoodie
+[[redirects]]
+  from = "/backless-hoodie"
+  to = "https://auralo-backluxe-hoodie.netlify.app/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/backless-hoodie/"
+  to = "https://auralo-backluxe-hoodie.netlify.app/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/backless-hoodie/*"
+  to = "https://auralo-backluxe-hoodie.netlify.app/:splat"
+  status = 200
+  force = true
+
+# Arina Rhinestone Dress
+[[redirects]]
+  from = "/arinadress"
+  to = "https://arina-rhinestone-dress.netlify.app/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/arinadress/"
+  to = "https://arina-rhinestone-dress.netlify.app/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/arinadress/*"
+  to = "https://arina-rhinestone-dress.netlify.app/:splat"
+  status = 200
+  force = true
+
+# IVERA BackLuxe Rhinestone Hoodie
+[[redirects]]
+  from = "/ivera-backluxe-hoodie"
+  to = "https://ivera-backluxe-hoodie.netlify.app/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/ivera-backluxe-hoodie/"
+  to = "https://ivera-backluxe-hoodie.netlify.app/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/ivera-backluxe-hoodie/*"
+  to = "https://ivera-backluxe-hoodie.netlify.app/:splat"
+  status = 200
+  force = true
