@@ -1,2 +1,23 @@
 [build]
   publish = "."
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/littleredcorset/compressed/*"
+  to = "/compressed/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/littleredcorset/images/*"
+  to = "/images/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/littleredcorset/netlify/*"
+  to = "/netlify/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/littleredcorset/*"
+  to = "/index.html"
+  status = 200
